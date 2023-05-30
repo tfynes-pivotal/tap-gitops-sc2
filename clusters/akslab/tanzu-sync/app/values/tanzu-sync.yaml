@@ -1,6 +1,6 @@
 ---
 git:
-  url: https://github.com/tfynes-pivotal/tap-gitops-sc
+  url: git@github.com:tfynes-pivotal/tap-gitops-sc2.git
   ref: origin/main
   sub_path: clusters/akslab/cluster-config
 tap_package_repository:
