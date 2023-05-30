@@ -10,7 +10,7 @@ spec:
   fetch:
     - git:
         ref: origin/main
-        url: https://github.com/tfynes-pivotal/tap-gitops-sc
+        url: https://github.com/tfynes-pivotal/tap-gitops-sc2
         subPath: clusters/akslab/cluster-config/dependent-resources
   template:
     - ytt: {}
