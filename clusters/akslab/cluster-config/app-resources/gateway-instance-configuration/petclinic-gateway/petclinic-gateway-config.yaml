@@ -1,0 +1,18 @@
+apiVersion: "tanzu.vmware.com/v1"
+kind: SpringCloudGateway
+metadata:
+  name: petclinic-gateway
+  namespace: default
+spec:
+  count: 1
+  env:
+  - name: LOGGING_LEVEL_ORG_SPRINGFRAMEWORK
+    value: TRACE
+  api:
+    title: Tanzu PetClinic APIs
+    description: PetClinic with SCG Demo
+    version: 0.0.1
+    groupId: PetClinic
+    cors:
+      allowedOrigins:
+      - "https://api-portal.akslab1a.tap.fynesy.com"
