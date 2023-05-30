@@ -72,7 +72,7 @@ tap_install:
             sourceUrlsTimeoutSec: "30"
           sso:
             enabled: true
-            secretName: sso-credentials
+            #!secretName: sso-credentials
             apiManager:
               roles: tanzu.read
           apiKey:
