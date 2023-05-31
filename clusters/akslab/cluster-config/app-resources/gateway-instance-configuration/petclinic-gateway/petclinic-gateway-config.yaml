@@ -1,7 +1,7 @@
 apiVersion: "tanzu.vmware.com/v1"
 kind: SpringCloudGateway
 metadata:
-  name: petclinic-gateway
+  name: PetclinicGateway
   namespace: default
 spec:
   count: 1
