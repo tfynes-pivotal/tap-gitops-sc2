@@ -1,4 +1,7 @@
-install vault
+installing Vault
+
+RUN SCRIPTS installVault-1.sh -> installVault-2.sh -> installVault-3.sh to automate opinionated
+vault install for api-portal and spring-cloud-gateway
 
 helm repo add hashicorp https://helm.releases.hashicorp.com
 helm upgrade --install vault hashicorp/vault --atomic --namespace vault --create-namespace --wait
