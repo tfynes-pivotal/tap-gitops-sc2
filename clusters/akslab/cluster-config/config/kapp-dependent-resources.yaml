@@ -1,4 +1,5 @@
-#@ load("@ytt:overlay", "overlay")
+#! #@ load("@ytt:overlay", "overlay")
+#! #@ def tanzu_sync_app():
 apiVersion: kappctrl.k14s.io/v1alpha1
 kind: App
 metadata:
@@ -16,12 +17,12 @@ spec:
   template:
     - ytt: {}
     #! experimental - sops decrypt support
-    #@overlay/match by=overlay.index(0)
-    #@overlay/insert before=True
-    - sops: 
-        age:
-          privateKeysSecretRef:
-            name: sync-age-identity
+  #!  #@overlay/match by=overlay.index(0)
+  #!  #@overlay/insert before=True
+  #!  - sops: 
+  #!      age:
+  #!        privateKeysSecretRef:
+  #!          name: sync-age-identity
   deploy:
     - kapp:
         rawOptions: ["--dangerous-allow-empty-list-of-resources=true"]
