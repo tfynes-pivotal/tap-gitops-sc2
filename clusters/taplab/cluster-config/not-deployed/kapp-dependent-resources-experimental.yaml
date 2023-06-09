@@ -17,7 +17,7 @@ spec:
     - git:
         ref: origin/main
         url: https://github.com/tfynes-pivotal/tap-gitops-sc2
-        subPath: clusters/akslab/cluster-config/dependent-resources
+        subPath: clusters/taplab/cluster-config/dependent-resources
   template:
     #@overlay/match by=overlay.index(0)
     #@overlay/insert before=True

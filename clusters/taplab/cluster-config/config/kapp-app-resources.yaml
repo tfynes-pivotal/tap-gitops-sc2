@@ -1,7 +1,7 @@
 apiVersion: kappctrl.k14s.io/v1alpha1
 kind: App
 metadata:
-  name: dependent-resources
+  name: app-resources
   namespace: tanzu-sync
   annotations:
     kapp.k14s.io/change-rule.0: "upsert after upserting pkgi"
@@ -11,12 +11,8 @@ spec:
     - git:
         ref: origin/main
         url: https://github.com/tfynes-pivotal/tap-gitops-sc2
-        subPath: clusters/akslab/cluster-config/dependent-resources
+        subPath: clusters/taplab/cluster-config/app-resources
   template:
-    - sops:
-        age:
-          privateKeysSecretRef:
-            name: sync-age-identity
     - ytt: {}
   deploy:
     - kapp:
