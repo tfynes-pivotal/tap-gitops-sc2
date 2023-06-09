@@ -11,7 +11,7 @@ spec:
     git:
       url: https://github.com/tfynes-pivotal/tdemo-python1
       ref:
-        branch: test
+        branch: main
   build:
     env:
       - name: BP_FUNCTION
