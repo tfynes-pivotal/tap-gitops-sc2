@@ -4,7 +4,7 @@ metadata:
   name: tdemo-gateway
   namespace: default
   labels:
-    app.kubernetes.io/part-of: tdemo
+    app.kubernetes.io/part-of: tdemo1
 spec:
   count: 1
   host: tdemo.akslab1.tap.fynesy.com
