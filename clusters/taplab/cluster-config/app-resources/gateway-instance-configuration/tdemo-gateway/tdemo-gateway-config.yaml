@@ -11,10 +11,10 @@ metadata:
     tanzu.app.live.view.application.actuator.path: actuator
     tanzu.app.live.view.application.name: tdemo-gateway
 spec:
-  observability:
-    metrics:
-      prometheus:
-        enabled: true
+  #observability:
+  #  metrics:
+  #    prometheus:
+  #      enabled: true
   count: 1
   host: tdemo.akslab1.tap.fynesy.com
   api:
