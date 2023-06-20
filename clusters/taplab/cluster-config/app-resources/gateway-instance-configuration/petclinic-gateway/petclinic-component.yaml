@@ -4,7 +4,7 @@ metadata:
   name: petclinic-gateway
   description: Demo Gateway Protected Petclinic
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-petclinic-protected'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring_petclinic_protected'
 spec:
   type: service
   lifecycle: experimental
