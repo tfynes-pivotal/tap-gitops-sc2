@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: petclinic-gateway
+  description: Demo Gateway Protected Petclinic
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=Petclinic'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
