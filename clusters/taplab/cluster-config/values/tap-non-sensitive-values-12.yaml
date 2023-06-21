@@ -2,6 +2,44 @@
 tap_install:
   values: 
         shared:
+          ca_cert_data: |
+            -----BEGIN CERTIFICATE-----
+            MIIGAjCCA+qgAwIBAgIUZLrf0YsefEGreLJa6f/NtPxvlbcwDQYJKoZIhvcNAQEL
+            BQAwdjELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAk1BMQ8wDQYDVQQHDAZCb3N0b24x
+            ITAfBgNVBAoMGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDEOMAwGA1UEAwwFdGFu
+            enUxFjAUBgkqhkiG9w0BCQEWB2FAYi5jb20wHhcNMjMwNjIxMTYzNTI5WhcNMjQw
+            NjIwMTYzNTI5WjB2MQswCQYDVQQGEwJVUzELMAkGA1UECAwCTUExDzANBgNVBAcM
+            BkJvc3RvbjEhMB8GA1UECgwYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMQ4wDAYD
+            VQQDDAV0YW56dTEWMBQGCSqGSIb3DQEJARYHYUBiLmNvbTCCAiIwDQYJKoZIhvcN
+            AQEBBQADggIPADCCAgoCggIBAMtMhel1iZSmu9cf5d3JFQMiKzymKTyglxpQua0q
+            08KuM0Qz30sBLTZx4FlsUTS3GAx0xJR9CUNF8tDSOQ0qPyG1BzVSMxTCZFqpIrhv
+            NMgAAavJh7doNPTHreLZk84DEdSC1mrI4XMUZJeiPIYtccZBYQVxMPlLMjhp1Aa7
+            JW3JrJvg0aunF8j7/yCXHQ1kyL+uG8HjEaKbWhA2qGzv9Q059kM+M5dANgG8RxDP
+            u4mxJACWqcEadda4IRGI6K4PFselZLE+NovSfa+yFN+MHwQTUR79uw1JbHVfOAhI
+            HKkga9Af8dpLjhNJgwpmhuAMm48YTwubvRh2Q4g84RTwsCsox9Fc0dyAfEAouGH4
+            bds6TcfnRiGCLUzWnosg9cLaqjsT3CDtVtIL5XlH17sKpq0SiyNyxfQwD7d8orLG
+            2qS4AGrw0di1VG1eKYWgWrNkjp3Zs6Dg0OY9njODdU4Z8SfvL31WR2pR07DbYxXJ
+            avK/6rzJdKDJXpGeLXTEzO75oc6FX4ZbgXUv/+0uMundHtyM9y0jA/zluJoxKGs0
+            RbybZU8fUvIUp0UncsTELA8RmF6/DmpTCiuxUsDRrD5nwx8GQFzRUPecwRxGLAOf
+            qYIkaivWcVceyl6kA65nnwJzTSxB5Rvtf+Od/7BOsiZCOR2unhk3xMW175qj9VW8
+            AO6rAgMBAAGjgYcwgYQwHQYDVR0OBBYEFAsvJrqlCs2D+t9fEwM12eunVDW/MB8G
+            A1UdIwQYMBaAFAsvJrqlCs2D+t9fEwM12eunVDW/MA8GA1UdEwEB/wQFMAMBAf8w
+            MQYDVR0RBCowKIImbXlyZXBvLWhhcmJvci5oYXJib3Iuc3ZjLmNsdXN0ZXIubG9j
+            YWwwDQYJKoZIhvcNAQELBQADggIBAEcR6cM5rX7PWUt0LUh+Oi0d+vFRlfrw/ENY
+            OqfRjQP7xC4WAisqAuKNn3uE2cilX7y1wkBEr9iWu0Z9leTsFGCDZH7J12Tsms5G
+            B4XAr5LKK+jhS994LcEtW4WUCjqMZw6mFwfn6u5KW1diDzA90VhPaYd1LY9mf5Ee
+            tQdSn/BvylEzPGe9U1Xen66JlKhZoHWVSzyeaQn4/rNw55B4ElNpyZ+PQCwYVt/Y
+            ZAXirg7PiChkCd8nQu7KmfgT03dZSTIC4P01nXyzdG+uXW1XNTwFMLnzdVnNMb+Y
+            25T+Z16+WMDCs5rXGWHQ0D9QwDgvyQSw9loaXI1ymdXPYbLF2eGz6pWGXb1g2hPE
+            fZSfKq5Ubc9324xwP6KkOlZmiLojn4jOSnib6ZpQSbayyfLG6hn+J0jY2AytJFBO
+            /qQOm5iQLXlfcA4Cnjkn0GuN2STu3PlC/YWZ5TUyYTcXuppamltUHUiTTxA9AIvU
+            5iDp7mo1lRjJUfHsO1X5LaVBdgj4qUq2rTUoKUp269E+7yIvovw/fu+/K9DnRuGn
+            6BDtPQhL49wEW9QxdOWpEik/tKwDGs62f+eFqaQ+oxzIH0eechWW3XLKU9FZCEdz
+            OCkAiTgeeJ49BBjlrdcVSiPPOx5Ak2I9bjXsefhNE5zDqQH3beqi2QID0454MQTC
+            42zSegjd
+            -----END CERTIFICATE-----
+
+
           ingress_domain: "akslab1.tap.fynesy.com"
           ingress_issuer: "letsencrypt-production"
 
