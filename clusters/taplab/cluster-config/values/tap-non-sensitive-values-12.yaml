@@ -4,40 +4,42 @@ tap_install:
         shared:
           ca_cert_data: |
             -----BEGIN CERTIFICATE-----
-            MIIGAjCCA+qgAwIBAgIUZLrf0YsefEGreLJa6f/NtPxvlbcwDQYJKoZIhvcNAQEL
-            BQAwdjELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAk1BMQ8wDQYDVQQHDAZCb3N0b24x
-            ITAfBgNVBAoMGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDEOMAwGA1UEAwwFdGFu
-            enUxFjAUBgkqhkiG9w0BCQEWB2FAYi5jb20wHhcNMjMwNjIxMTYzNTI5WhcNMjQw
-            NjIwMTYzNTI5WjB2MQswCQYDVQQGEwJVUzELMAkGA1UECAwCTUExDzANBgNVBAcM
-            BkJvc3RvbjEhMB8GA1UECgwYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMQ4wDAYD
-            VQQDDAV0YW56dTEWMBQGCSqGSIb3DQEJARYHYUBiLmNvbTCCAiIwDQYJKoZIhvcN
-            AQEBBQADggIPADCCAgoCggIBAMtMhel1iZSmu9cf5d3JFQMiKzymKTyglxpQua0q
-            08KuM0Qz30sBLTZx4FlsUTS3GAx0xJR9CUNF8tDSOQ0qPyG1BzVSMxTCZFqpIrhv
-            NMgAAavJh7doNPTHreLZk84DEdSC1mrI4XMUZJeiPIYtccZBYQVxMPlLMjhp1Aa7
-            JW3JrJvg0aunF8j7/yCXHQ1kyL+uG8HjEaKbWhA2qGzv9Q059kM+M5dANgG8RxDP
-            u4mxJACWqcEadda4IRGI6K4PFselZLE+NovSfa+yFN+MHwQTUR79uw1JbHVfOAhI
-            HKkga9Af8dpLjhNJgwpmhuAMm48YTwubvRh2Q4g84RTwsCsox9Fc0dyAfEAouGH4
-            bds6TcfnRiGCLUzWnosg9cLaqjsT3CDtVtIL5XlH17sKpq0SiyNyxfQwD7d8orLG
-            2qS4AGrw0di1VG1eKYWgWrNkjp3Zs6Dg0OY9njODdU4Z8SfvL31WR2pR07DbYxXJ
-            avK/6rzJdKDJXpGeLXTEzO75oc6FX4ZbgXUv/+0uMundHtyM9y0jA/zluJoxKGs0
-            RbybZU8fUvIUp0UncsTELA8RmF6/DmpTCiuxUsDRrD5nwx8GQFzRUPecwRxGLAOf
-            qYIkaivWcVceyl6kA65nnwJzTSxB5Rvtf+Od/7BOsiZCOR2unhk3xMW175qj9VW8
-            AO6rAgMBAAGjgYcwgYQwHQYDVR0OBBYEFAsvJrqlCs2D+t9fEwM12eunVDW/MB8G
-            A1UdIwQYMBaAFAsvJrqlCs2D+t9fEwM12eunVDW/MA8GA1UdEwEB/wQFMAMBAf8w
-            MQYDVR0RBCowKIImbXlyZXBvLWhhcmJvci5oYXJib3Iuc3ZjLmNsdXN0ZXIubG9j
-            YWwwDQYJKoZIhvcNAQELBQADggIBAEcR6cM5rX7PWUt0LUh+Oi0d+vFRlfrw/ENY
-            OqfRjQP7xC4WAisqAuKNn3uE2cilX7y1wkBEr9iWu0Z9leTsFGCDZH7J12Tsms5G
-            B4XAr5LKK+jhS994LcEtW4WUCjqMZw6mFwfn6u5KW1diDzA90VhPaYd1LY9mf5Ee
-            tQdSn/BvylEzPGe9U1Xen66JlKhZoHWVSzyeaQn4/rNw55B4ElNpyZ+PQCwYVt/Y
-            ZAXirg7PiChkCd8nQu7KmfgT03dZSTIC4P01nXyzdG+uXW1XNTwFMLnzdVnNMb+Y
-            25T+Z16+WMDCs5rXGWHQ0D9QwDgvyQSw9loaXI1ymdXPYbLF2eGz6pWGXb1g2hPE
-            fZSfKq5Ubc9324xwP6KkOlZmiLojn4jOSnib6ZpQSbayyfLG6hn+J0jY2AytJFBO
-            /qQOm5iQLXlfcA4Cnjkn0GuN2STu3PlC/YWZ5TUyYTcXuppamltUHUiTTxA9AIvU
-            5iDp7mo1lRjJUfHsO1X5LaVBdgj4qUq2rTUoKUp269E+7yIvovw/fu+/K9DnRuGn
-            6BDtPQhL49wEW9QxdOWpEik/tKwDGs62f+eFqaQ+oxzIH0eechWW3XLKU9FZCEdz
-            OCkAiTgeeJ49BBjlrdcVSiPPOx5Ak2I9bjXsefhNE5zDqQH3beqi2QID0454MQTC
-            42zSegjd
+            MIIF7TCCA9WgAwIBAgIUdTF/0S8DCWGhd4rR4UYSU2bH/q8wDQYJKoZIhvcNAQEN
+            BQAwgYUxCzAJBgNVBAYTAkNOMQ8wDQYDVQQIDAZCb3N0b24xDzANBgNVBAcMBkJv
+            c3RvbjEQMA4GA1UECgwHZXhhbXBsZTERMA8GA1UECwwIUGVyc29uYWwxLzAtBgNV
+            BAMMJm15cmVwby1oYXJib3IuaGFyYm9yLnN2Yy5jbHVzdGVyLmxvY2FsMB4XDTIz
+            MDYyMTIyMTczOVoXDTMzMDYxODIyMTczOVowgYUxCzAJBgNVBAYTAkNOMQ8wDQYD
+            VQQIDAZCb3N0b24xDzANBgNVBAcMBkJvc3RvbjEQMA4GA1UECgwHZXhhbXBsZTER
+            MA8GA1UECwwIUGVyc29uYWwxLzAtBgNVBAMMJm15cmVwby1oYXJib3IuaGFyYm9y
+            LnN2Yy5jbHVzdGVyLmxvY2FsMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKC
+            AgEAuso0oyTGo7e8E5S2foWOa+afevZDntKqlDboCgYYyGHjBqh35iZ41wDNAAP/
+            9o15RExXTEuSNDsEKUnJhpr0+BeZfTa8Jp6LVXZxjBMZAFT8kQayGJpogvoLdCHq
+            LwWPJoGaWCiNEQbDJeyh3Il3GHf4JQFhZWnJHKljU9q0wxruIOOUpszoee3cE6AT
+            nw0XX98IbnFXFCodsF42nIunHzdGG/dWMjdBpJK8nlPM9i+24PG8si4MtUgr0par
+            boXPWgZXmvYDNPSn4I87j+zEDDXpxJHyYLv6mP2Vet7xHAzoxws/zn2uoiF3XEkp
+            asQ+c0/bbEC/zhmUnPGBwy57sEqumWmw2RVrrnnh4PjKsTE/88hs8JraeHQ2Ymt8
+            /TQJt5P7XAB7HTmX7cQ4vlYvetckCeelfiSm86b/0tPflJrCxWgadcZzMi9d7rWY
+            S2RM1KrXsWH2OXv5uqrg1U11WUwOsIRyKxAZmZThng2deRFFrqDV7YcJFe0mlqHK
+            nMcXrBkQVUFRVcpAs3LXFOfwFsR5d67DdIFvpUSNu3qA5ce82sBJR1+H+nbJCHXt
+            OkcS+xsrBkcUJoFtLLwlmCLPLp/ZkyDAAZGtN4GBCDUZpvs79JInPj870zGhxksN
+            sYiXhbqZsbVU4tRoUZnHsCqT3nsZ38PK4Vcd2pqQ0g9Vi7sCAwEAAaNTMFEwHQYD
+            VR0OBBYEFJH2DaMPzl++Io8BCMF9jaoaOyVHMB8GA1UdIwQYMBaAFJH2DaMPzl++
+            Io8BCMF9jaoaOyVHMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQENBQADggIB
+            AK1O82dVLYm5wApTEcWjZ9lZ0JeChAKZIIekG5UslViYhToO8oEftgdRQncefd9G
+            FVWUa5w5TosteScS/5qOAnXBf50dAn5ZFKjEGhHlbpwu76YpR+bYKFPmqkwXVXaF
+            +GH9v+kyI2rDZapPyK/A4+bG05K0rX0XgyxCwi918fUrN20CJqKDtvSWjS9kbKEl
+            B/dMg5S2scM8guxceMryRZ2dtHo+naQQlUo/kU1849jxDor7RLWHksZZ3NpiFICl
+            LwBXnDv8u7IfkYWSBA+HNG+Q9kuwVzrx3Pk/KTHrQJ3NlmEQeARadb0ZChLS7A0r
+            wI7KaPNKrHnoDaVSjRlkrM4FkjxSQ8u9lgIhMhHAmz8FFXuRzXFolf0LjrgmoSiS
+            LnL4I45oBPL15bPps8l2ea7Tv0IEEZDfWjrz56DM28hzbEMRu4bCW5UgdAapVT0d
+            zfCPrtntTGwC2jGG4W4YUYc2JUNSu+p7ekDKki+rNAkN+pNfuTgcFAIFlJb9Uwbi
+            xKH0al+RCm09RcW7hB37HG81iG0wEptBbb8Wqyvd2qJHwkD9FwpE5BmHF0mes//6
+            8H793AXcKSk7xOe4H4kNWzCSRjb6yjAovBcZ3pv4+6z8VZvPt3uoj17+PcJ55vF1
+            K98galUydXbfA78hOBwnpmSGZ2Q2c2NzaaBD7nRPvS+a
             -----END CERTIFICATE-----
+
+
+
 
 
           ingress_domain: "akslab1.tap.fynesy.com"
@@ -52,44 +54,6 @@ tap_install:
         buildservice:
             kp_default_repository: myrepo-harbor.harbor.svc.cluster.local/tap/build-service
             kp_default_repository_username: admin
-            kp_default_repository_password: Harbor12345
-            ca_cert_data: |
-              -----BEGIN CERTIFICATE-----
-              MIIGAjCCA+qgAwIBAgIUZLrf0YsefEGreLJa6f/NtPxvlbcwDQYJKoZIhvcNAQEL
-              BQAwdjELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAk1BMQ8wDQYDVQQHDAZCb3N0b24x
-              ITAfBgNVBAoMGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDEOMAwGA1UEAwwFdGFu
-              enUxFjAUBgkqhkiG9w0BCQEWB2FAYi5jb20wHhcNMjMwNjIxMTYzNTI5WhcNMjQw
-              NjIwMTYzNTI5WjB2MQswCQYDVQQGEwJVUzELMAkGA1UECAwCTUExDzANBgNVBAcM
-              BkJvc3RvbjEhMB8GA1UECgwYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMQ4wDAYD
-              VQQDDAV0YW56dTEWMBQGCSqGSIb3DQEJARYHYUBiLmNvbTCCAiIwDQYJKoZIhvcN
-              AQEBBQADggIPADCCAgoCggIBAMtMhel1iZSmu9cf5d3JFQMiKzymKTyglxpQua0q
-              08KuM0Qz30sBLTZx4FlsUTS3GAx0xJR9CUNF8tDSOQ0qPyG1BzVSMxTCZFqpIrhv
-              NMgAAavJh7doNPTHreLZk84DEdSC1mrI4XMUZJeiPIYtccZBYQVxMPlLMjhp1Aa7
-              JW3JrJvg0aunF8j7/yCXHQ1kyL+uG8HjEaKbWhA2qGzv9Q059kM+M5dANgG8RxDP
-              u4mxJACWqcEadda4IRGI6K4PFselZLE+NovSfa+yFN+MHwQTUR79uw1JbHVfOAhI
-              HKkga9Af8dpLjhNJgwpmhuAMm48YTwubvRh2Q4g84RTwsCsox9Fc0dyAfEAouGH4
-              bds6TcfnRiGCLUzWnosg9cLaqjsT3CDtVtIL5XlH17sKpq0SiyNyxfQwD7d8orLG
-              2qS4AGrw0di1VG1eKYWgWrNkjp3Zs6Dg0OY9njODdU4Z8SfvL31WR2pR07DbYxXJ
-              avK/6rzJdKDJXpGeLXTEzO75oc6FX4ZbgXUv/+0uMundHtyM9y0jA/zluJoxKGs0
-              RbybZU8fUvIUp0UncsTELA8RmF6/DmpTCiuxUsDRrD5nwx8GQFzRUPecwRxGLAOf
-              qYIkaivWcVceyl6kA65nnwJzTSxB5Rvtf+Od/7BOsiZCOR2unhk3xMW175qj9VW8
-              AO6rAgMBAAGjgYcwgYQwHQYDVR0OBBYEFAsvJrqlCs2D+t9fEwM12eunVDW/MB8G
-              A1UdIwQYMBaAFAsvJrqlCs2D+t9fEwM12eunVDW/MA8GA1UdEwEB/wQFMAMBAf8w
-              MQYDVR0RBCowKIImbXlyZXBvLWhhcmJvci5oYXJib3Iuc3ZjLmNsdXN0ZXIubG9j
-              YWwwDQYJKoZIhvcNAQELBQADggIBAEcR6cM5rX7PWUt0LUh+Oi0d+vFRlfrw/ENY
-              OqfRjQP7xC4WAisqAuKNn3uE2cilX7y1wkBEr9iWu0Z9leTsFGCDZH7J12Tsms5G
-              B4XAr5LKK+jhS994LcEtW4WUCjqMZw6mFwfn6u5KW1diDzA90VhPaYd1LY9mf5Ee
-              tQdSn/BvylEzPGe9U1Xen66JlKhZoHWVSzyeaQn4/rNw55B4ElNpyZ+PQCwYVt/Y
-              ZAXirg7PiChkCd8nQu7KmfgT03dZSTIC4P01nXyzdG+uXW1XNTwFMLnzdVnNMb+Y
-              25T+Z16+WMDCs5rXGWHQ0D9QwDgvyQSw9loaXI1ymdXPYbLF2eGz6pWGXb1g2hPE
-              fZSfKq5Ubc9324xwP6KkOlZmiLojn4jOSnib6ZpQSbayyfLG6hn+J0jY2AytJFBO
-              /qQOm5iQLXlfcA4Cnjkn0GuN2STu3PlC/YWZ5TUyYTcXuppamltUHUiTTxA9AIvU
-              5iDp7mo1lRjJUfHsO1X5LaVBdgj4qUq2rTUoKUp269E+7yIvovw/fu+/K9DnRuGn
-              6BDtPQhL49wEW9QxdOWpEik/tKwDGs62f+eFqaQ+oxzIH0eechWW3XLKU9FZCEdz
-              OCkAiTgeeJ49BBjlrdcVSiPPOx5Ak2I9bjXsefhNE5zDqQH3beqi2QID0454MQTC
-              42zSegjd
-              -----END CERTIFICATE-----
-        
         
         learningcenter:
             imageRegistry: 
