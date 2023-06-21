@@ -31,8 +31,8 @@ tap_install:
 
         ootb_supply_chain_basic: 
           registry:
-            server: "index.docker.io"
-            repository: "fynesy"
+            server: "myrepo-harbor.harbor.svc.cluster.local""
+            repository: "tap"
           gitops:
             ssh_secret: ""
 
