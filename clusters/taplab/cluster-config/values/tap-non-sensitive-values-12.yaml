@@ -44,13 +44,13 @@ tap_install:
           ingress_issuer: "letsencrypt-production"
 
           image_registry:
-              project_path: http://myrepo-harbor.harbor.svc.cluster.local/tap
+              project_path: https://myrepo-harbor.harbor.svc.cluster.local/tap
               username: admin
               password: Harbor12345
         
         
         buildservice:
-            kp_default_repository: http://myrepo-harbor.harbor.svc.cluster.local/tap/build-service
+            kp_default_repository: https://myrepo-harbor.harbor.svc.cluster.local/tap/build-service
             kp_default_repository_username: admin
             kp_default_repository_password: Harbor12345
         
