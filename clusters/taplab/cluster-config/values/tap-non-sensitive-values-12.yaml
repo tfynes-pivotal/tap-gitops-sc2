@@ -5,6 +5,24 @@ tap_install:
           ingress_domain: "akslab1.tap.fynesy.com"
           ingress_issuer: "letsencrypt-production"
 
+          image_registry:
+              project_path: http://myrepo-harbor.harbor.svc.cluster.local/tap
+              username: admin
+              password: Q7zY8kAnVM
+        
+        
+        buildservice:
+            kp_default_repository: http://myrepo-harbor.harbor.svc.cluster.local/tap
+            kp_default_repository_username: admin
+            kp_default_repository_password: Q7zY8kAnVM
+        
+        
+        learningcenter:
+            imageRegistry: 
+              host: "myrepo-harbor.harbor.svc.cluster.local"
+              username: admin
+              password: Q7zY8kAnVM
+
 
         ceip_policy_disclosed: true
 
