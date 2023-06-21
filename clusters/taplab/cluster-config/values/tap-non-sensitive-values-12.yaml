@@ -12,7 +12,7 @@ tap_install:
         
         
         buildservice:
-            kp_default_repository: http://myrepo-harbor.harbor.svc.cluster.local/tap
+            kp_default_repository: http://myrepo-harbor.harbor.svc.cluster.local/tap/build-service
             kp_default_repository_username: admin
             kp_default_repository_password: Q7zY8kAnVM
         
@@ -48,8 +48,6 @@ tap_install:
             service:
               type: LoadBalancer 
 
-        buildservice:
-          kp_default_repository: "fynesy/buildservice"
 
         tap_gui:
           service_type: ClusterIP # If the shared.ingress_domain is set as earlier, this must be set to ClusterIP.
