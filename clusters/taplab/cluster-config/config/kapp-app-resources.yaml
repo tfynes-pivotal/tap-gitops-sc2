@@ -9,7 +9,7 @@ spec:
   serviceAccountName: sync-sa
   fetch:
     - git:
-        ref: origin/main
+        ref: origin/harbortest
         url: https://github.com/tfynes-pivotal/tap-gitops-sc2
         subPath: clusters/taplab/cluster-config/app-resources
   template:
