@@ -31,7 +31,7 @@ tap_install:
 
         ootb_supply_chain_basic: 
           registry:
-            server: "myrepo-harbor.harbor.svc.cluster.local""
+            server: "myrepo-harbor.harbor.svc.cluster.local"
             repository: "tap"
           gitops:
             ssh_secret: ""
