@@ -54,6 +54,7 @@ tap_install:
         buildservice:
             kp_default_repository: myrepo-harbor.harbor.svc.cluster.local/tap/build-service
             kp_default_repository_username: admin
+            kp_default_password: Harbor12345
         
         learningcenter:
             imageRegistry: 
