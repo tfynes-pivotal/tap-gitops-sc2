@@ -50,19 +50,16 @@ tap_install:
           image_registry:
               project_path: myrepo-harbor.harbor.svc.cluster.local/tap
               username: admin
-              password: Harbor12345
         
         
         buildservice:
             kp_default_repository: myrepo-harbor.harbor.svc.cluster.local/tap/build-service
             kp_default_repository_username: admin
-            kp_default_password: Harbor12345
         
         learningcenter:
             imageRegistry: 
               host: "myrepo-harbor.harbor.svc.cluster.local"
               username: admin
-              password: Harbor12345
 
 
         ceip_policy_disclosed: true

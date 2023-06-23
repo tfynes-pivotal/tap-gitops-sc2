@@ -1,27 +1,15 @@
 ---
 tap_install:
-    sensitive_values:
+  values: 
         shared:
-            image_registry:
-                project_path: <eg dockerhub id>/<dockerhub repo>
-                username: xxx
-                password: xxx
+          image_registry:
+              password: Harbor12345
+        
         buildservice:
-            kp_default_repository: <eg dockerhub id>/<dockerhub repo>
-            kp_default_repository_username: xxx
-            kp_default_repository_password: xxx
+            kp_default_password: Harbor12345
+        
         learningcenter:
             imageRegistry: 
-              host: "index.docker.io/v1"
-              username: xxx
-              password: xxx
+              password: Harbor12345
 
-        tap_gui:
-          app_config:
-            auth:
-              providers:
-                github:
-                  development:
-                    clientId: <github 'application' id>
-                    clientSecret: <github 'application' secret>
 
