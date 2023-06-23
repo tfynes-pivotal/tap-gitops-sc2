@@ -42,7 +42,6 @@ tap_install:
 
 
 
-
           ingress_domain: "akslab1.tap.fynesy.com"
           ingress_issuer: "letsencrypt-production"
 
