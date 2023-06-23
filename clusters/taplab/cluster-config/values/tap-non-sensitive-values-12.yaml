@@ -40,12 +40,24 @@ tap_install:
             yIk1RE3VXQleYMoYNaq4LeJGV5vktxkXK5yKaQ==
             -----END CERTIFICATE-----
 
+          image_registry:
+            project_path: myrepo-harbor.harbor.svc.cluster.local/tap
+            username: admin
+            password: Harbor12345
+        
+        buildservice:
+          kp_default_repository: myrepo-harbor.harbor.svc.cluster.local/tap/build-service
+          kp_default_repository_username: admin
+          kp_default_repository_password: Harbor12345
+        
+        learningcenter:
+            imageRegistry: 
+              host: "myrepo-harbor.harbor.svc.cluster.local"
+              username: admin
+              password: Harbor12345
 
-
-
-
-          ingress_domain: "akslab1.tap.fynesy.com"
-          ingress_issuer: "letsencrypt-production"
+        ingress_domain: "akslab1.tap.fynesy.com"
+        ingress_issuer: "letsencrypt-production"
 
         ceip_policy_disclosed: true
 
