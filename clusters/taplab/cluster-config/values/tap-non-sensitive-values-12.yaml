@@ -4,39 +4,40 @@ tap_install:
         shared:
           ca_cert_data: |
             -----BEGIN CERTIFICATE-----
-            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
-            vlh3KrFgh+Zaj8rZfYeJoA==
+            MIIGPDCCBCSgAwIBAgIUHVWasVbbE0Caoqpbc4cEWOySBhQwDQYJKoZIhvcNAQEL
+            BQAwgZMxCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJNQTEPMA0GA1UEBwwGQm9zdG9u
+            MQ8wDQYDVQQKDAZWTXdhcmUxDjAMBgNVBAsMBVRhbnp1MS0wKwYDVQQDDCRteXJl
+            cG8taGFyYm9yLmFrc2xhYjEudGFwLmZ5bmVzeS5jb20xFjAUBgkqhkiG9w0BCQEW
+            B2FAYi5jb20wHhcNMjMwNjIzMTgyMzIyWhcNMjQwNjIyMTgyMzIyWjCBkzELMAkG
+            A1UEBhMCVVMxCzAJBgNVBAgMAk1BMQ8wDQYDVQQHDAZCb3N0b24xDzANBgNVBAoM
+            BlZNd2FyZTEOMAwGA1UECwwFVGFuenUxLTArBgNVBAMMJG15cmVwby1oYXJib3Iu
+            YWtzbGFiMS50YXAuZnluZXN5LmNvbTEWMBQGCSqGSIb3DQEJARYHYUBiLmNvbTCC
+            AiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAK7J5q6lMOZ0GF9fHDHcsUoM
+            rt3eVg/Vm0giA3emFHTPvX2w7Cd5DN6sXyFVHzhZSrqfjH8BvUifswp1O34FF4JP
+            3fnfyHT7vM/PVELOF6b6FKMhJT49Ty/7lrpiOf1QL2tP3ROQTtXWFNORqpyB1f/m
+            2Y3Y1gyBNC4zQU6KxVwKKLJThmyzwI5r+gHghdhyAQ628qZ9cdAxn9kB3LQ9YDCc
+            U71iX4HdAAKYsBJrnh7xwCl9kv+7EmJ3OJrR3OmHTcY4tpHhkhzju9EDcDkPagMm
+            NighbfhfiESwR8khfTxHjWymYtTjj+Vg9BSqwEwiwXg/jN4nKkRErnYf6qf/MLIO
+            ZudnryxjpHk/pIWj9MWnqJZI5WEqaP5G2IMfwmM2gmQm3xnj5AA6HLF1s9dJzro0
+            ioS/u65WN13w9TBoq75VDPnQxSyVZz3SsCFkhENUD2TRdwU6GBuP18nSVTULUeLu
+            /A8JF3+k3m1XKCZHsD7Hni8KDk8YAXPf7AG5U0I0vczPrHNH9x1///E+p0PY9Bus
+            GqrmJZzYtaaSlITmdIHgFAYfchZ9mLy+AmVYzVPZjtvSM36iLtr1c8wsLScXQL3i
+            +rmBSpoPpHL5s8oSsu6e4iAWWqec+BBVERFOsL4yR+OkiIH4t4p9hX3f7BtsTHiS
+            +IZcg8rp0LdjqZKY3iQTAgMBAAGjgYUwgYIwHQYDVR0OBBYEFPH3XdQUBvH4RXo/
+            UBYll+g9KJHXMB8GA1UdIwQYMBaAFPH3XdQUBvH4RXo/UBYll+g9KJHXMA8GA1Ud
+            EwEB/wQFMAMBAf8wLwYDVR0RBCgwJoIkbXlyZXBvLWhhcmJvci5ha3NsYWIxLnRh
+            cC5meW5lc3kuY29tMA0GCSqGSIb3DQEBCwUAA4ICAQB0/RpZmdYeh3UYZGJbbNZI
+            25g3Z69yB4kQ77lRBMNFjLrxN+LvSdRE7IYlRSSJSSSgKx5WKXmYXWOsEgj4CSFz
+            pIZZ7A5IBz4HhVz3EK+GFItsYDT+PbQfa2XCw8GNpYpFYf/Tjsbnc7E1RF5Wn+au
+            B6DSHuO8nTroFw1WHHcB+KvF3ok9l27ov3/F646oGo5ua8mQuyDuIMY5U0ihH45m
+            /VZu2dabrlWcg+gGIK8UOKvXLJW1MsRFHtD1qUIpIuBFnqTXzRY9zbmQ5ZGvt1Mt
+            JBePtqYHCi1SijAzNFrsuQirZovxqctAetDzVnbnDKJZwJM6rarSRq45KnOLwfvM
+            +N0Ch3cG0pvCuulMkeoqSkADMSTXkointI78E3N18i3oOq8AhymN3j6kHQqLUXxU
+            4lUj17Fwj/+XHy3/lTVNacYj5fcr2JllNpIwXBstDXoDZxOcIAMs8k5yus0+buH3
+            CroHQ6hyD8C5DAzE9nclnaFHYdHVm8yRaJEV1A62xTPa/Y/Aitqf/XhbwLB8+vuP
+            LLVGhywP1eitkVH+lZ2M+eXS/pbBgH1F758DfQ7o1FU0z8jbPUmk7ASHzB2mYvGh
+            3gMq3Em3D277qXoZ9v8JshmxWb8evjqj2DCMod8MlxRoHsL02Q1E1SqiSaM5jgKw
+            Wy9MxXgNZz+MpibiFEM9sw==
             -----END CERTIFICATE-----
 
 
@@ -44,54 +45,18 @@ tap_install:
           ingress_issuer: "letsencrypt-production"
 
           image_registry:
-            project_path: myrepo-harbor.harbor.svc.cluster.local/library
+            project_path: myrepo-harbor.akslab1.tap.fynesy.com/library
             username: admin
             password: Harbor12345
         
         buildservice:
-          kp_default_repository: myrepo-harbor.harbor.svc.cluster.local/library/build-service
+          kp_default_repository: myrepo-harbor.akslab1.tap.fynesy.com/library/build-service
           kp_default_repository_username: admin
           kp_default_repository_password: Harbor12345
-          ca_cert_data: |
-            -----BEGIN CERTIFICATE-----
-            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
-            vlh3KrFgh+Zaj8rZfYeJoA==
-            -----END CERTIFICATE-----
         
         learningcenter:
             imageRegistry: 
-              host: "myrepo-harbor.harbor.svc.cluster.local"
+              host: "myrepo-harbor.akslab1.tap.fynesy.com"
               username: admin
               password: Harbor12345
 
@@ -103,7 +68,7 @@ tap_install:
 
         ootb_supply_chain_basic: 
           registry:
-            server: "myrepo-harbor.harbor.svc.cluster.local"
+            server: "myrepo-harbor.akslab1.tap.fynesy.com"
             repository: "library"
           gitops:
             ssh_secret: ""
