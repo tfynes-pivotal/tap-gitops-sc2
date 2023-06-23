@@ -67,3 +67,4 @@ clusters/taplab/cluster-config/not-deployed/harbortest/tmp/harbor/templates/triv
 clusters/taplab/cluster-config/not-deployed/harbortest/tmp/harbor/templates/trivy/trivy-tls.yaml
 clusters/taplab/cluster-config/not-deployed/harbortest/tmp/harbor/.values.yaml.swp
 .DS_Store
+clusters/taplab/cluster-config/sensitive-file-structures/tap-sensitive-values-12.yaml
