@@ -52,6 +52,42 @@ tap_install:
           kp_default_repository: myrepo-harbor.harbor.svc.cluster.local/library/build-service
           kp_default_repository_username: admin
           kp_default_repository_password: Harbor12345
+          ca_cert_data: |
+            -----BEGIN CERTIFICATE-----
+            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
+            vlh3KrFgh+Zaj8rZfYeJoA==
+            -----END CERTIFICATE-----
         
         learningcenter:
             imageRegistry: 
