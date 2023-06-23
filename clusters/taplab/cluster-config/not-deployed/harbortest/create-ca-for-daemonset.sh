@@ -1,0 +1,1 @@
+kubectl create secret generic registry-ca --namespace kube-system --from-file=registry-ca=./tls.crt
