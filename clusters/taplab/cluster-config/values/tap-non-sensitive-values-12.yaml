@@ -41,6 +41,8 @@ tap_install:
             -----END CERTIFICATE-----
 
 
+
+
           ingress_domain: "akslab1.tap.fynesy.com"
           ingress_issuer: "letsencrypt-production"
 
