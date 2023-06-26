@@ -54,43 +54,6 @@ tap_install:
           kp_default_repository: myrepo-harbor.akslab1.tap.fynesy.com/library/build-service
           kp_default_repository_username: admin
           kp_default_repository_password: Harbor12345
-          ca_cert_data: |
-            -----BEGIN CERTIFICATE-----
-            MIIGPDCCBCSgAwIBAgIUHVWasVbbE0Caoqpbc4cEWOySBhQwDQYJKoZIhvcNAQEL
-            BQAwgZMxCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJNQTEPMA0GA1UEBwwGQm9zdG9u
-            MQ8wDQYDVQQKDAZWTXdhcmUxDjAMBgNVBAsMBVRhbnp1MS0wKwYDVQQDDCRteXJl
-            cG8taGFyYm9yLmFrc2xhYjEudGFwLmZ5bmVzeS5jb20xFjAUBgkqhkiG9w0BCQEW
-            B2FAYi5jb20wHhcNMjMwNjIzMTgyMzIyWhcNMjQwNjIyMTgyMzIyWjCBkzELMAkG
-            A1UEBhMCVVMxCzAJBgNVBAgMAk1BMQ8wDQYDVQQHDAZCb3N0b24xDzANBgNVBAoM
-            BlZNd2FyZTEOMAwGA1UECwwFVGFuenUxLTArBgNVBAMMJG15cmVwby1oYXJib3Iu
-            YWtzbGFiMS50YXAuZnluZXN5LmNvbTEWMBQGCSqGSIb3DQEJARYHYUBiLmNvbTCC
-            AiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAK7J5q6lMOZ0GF9fHDHcsUoM
-            rt3eVg/Vm0giA3emFHTPvX2w7Cd5DN6sXyFVHzhZSrqfjH8BvUifswp1O34FF4JP
-            3fnfyHT7vM/PVELOF6b6FKMhJT49Ty/7lrpiOf1QL2tP3ROQTtXWFNORqpyB1f/m
-            2Y3Y1gyBNC4zQU6KxVwKKLJThmyzwI5r+gHghdhyAQ628qZ9cdAxn9kB3LQ9YDCc
-            U71iX4HdAAKYsBJrnh7xwCl9kv+7EmJ3OJrR3OmHTcY4tpHhkhzju9EDcDkPagMm
-            NighbfhfiESwR8khfTxHjWymYtTjj+Vg9BSqwEwiwXg/jN4nKkRErnYf6qf/MLIO
-            ZudnryxjpHk/pIWj9MWnqJZI5WEqaP5G2IMfwmM2gmQm3xnj5AA6HLF1s9dJzro0
-            ioS/u65WN13w9TBoq75VDPnQxSyVZz3SsCFkhENUD2TRdwU6GBuP18nSVTULUeLu
-            /A8JF3+k3m1XKCZHsD7Hni8KDk8YAXPf7AG5U0I0vczPrHNH9x1///E+p0PY9Bus
-            GqrmJZzYtaaSlITmdIHgFAYfchZ9mLy+AmVYzVPZjtvSM36iLtr1c8wsLScXQL3i
-            +rmBSpoPpHL5s8oSsu6e4iAWWqec+BBVERFOsL4yR+OkiIH4t4p9hX3f7BtsTHiS
-            +IZcg8rp0LdjqZKY3iQTAgMBAAGjgYUwgYIwHQYDVR0OBBYEFPH3XdQUBvH4RXo/
-            UBYll+g9KJHXMB8GA1UdIwQYMBaAFPH3XdQUBvH4RXo/UBYll+g9KJHXMA8GA1Ud
-            EwEB/wQFMAMBAf8wLwYDVR0RBCgwJoIkbXlyZXBvLWhhcmJvci5ha3NsYWIxLnRh
-            cC5meW5lc3kuY29tMA0GCSqGSIb3DQEBCwUAA4ICAQB0/RpZmdYeh3UYZGJbbNZI
-            25g3Z69yB4kQ77lRBMNFjLrxN+LvSdRE7IYlRSSJSSSgKx5WKXmYXWOsEgj4CSFz
-            pIZZ7A5IBz4HhVz3EK+GFItsYDT+PbQfa2XCw8GNpYpFYf/Tjsbnc7E1RF5Wn+au
-            B6DSHuO8nTroFw1WHHcB+KvF3ok9l27ov3/F646oGo5ua8mQuyDuIMY5U0ihH45m
-            /VZu2dabrlWcg+gGIK8UOKvXLJW1MsRFHtD1qUIpIuBFnqTXzRY9zbmQ5ZGvt1Mt
-            JBePtqYHCi1SijAzNFrsuQirZovxqctAetDzVnbnDKJZwJM6rarSRq45KnOLwfvM
-            +N0Ch3cG0pvCuulMkeoqSkADMSTXkointI78E3N18i3oOq8AhymN3j6kHQqLUXxU
-            4lUj17Fwj/+XHy3/lTVNacYj5fcr2JllNpIwXBstDXoDZxOcIAMs8k5yus0+buH3
-            CroHQ6hyD8C5DAzE9nclnaFHYdHVm8yRaJEV1A62xTPa/Y/Aitqf/XhbwLB8+vuP
-            LLVGhywP1eitkVH+lZ2M+eXS/pbBgH1F758DfQ7o1FU0z8jbPUmk7ASHzB2mYvGh
-            3gMq3Em3D277qXoZ9v8JshmxWb8evjqj2DCMod8MlxRoHsL02Q1E1SqiSaM5jgKw
-            Wy9MxXgNZz+MpibiFEM9sw==
-            -----END CERTIFICATE-----
         
         learningcenter:
             imageRegistry: 
