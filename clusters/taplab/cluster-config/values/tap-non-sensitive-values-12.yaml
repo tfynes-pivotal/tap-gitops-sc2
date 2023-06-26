@@ -4,41 +4,6 @@ tap_install:
         shared:
           ca_cert_data: |
             -----BEGIN CERTIFICATE-----
-            MIIGCDCCA/CgAwIBAgIUHm17uoBck1UZwsoJyKuYaZscXLswDQYJKoZIhvcNAQEN
-            BQAwaTELMAkGA1UEBhMCVVMxDzANBgNVBAgMBkJvc3RvbjEPMA0GA1UEBwwGQm9z
-            dG9uMRAwDgYDVQQKDAdleGFtcGxlMREwDwYDVQQLDAhQZXJzb25hbDETMBEGA1UE
-            AwwKZnluZXN5LmNvbTAeFw0yMzA2MjYyMTIyNDZaFw0zMzA2MjMyMTIyNDZaMH8x
-            CzAJBgNVBAYTAlVTMQswCQYDVQQIDAJNQTEPMA0GA1UEBwwGQm9zdG9uMRAwDgYD
-            VQQKDAdleGFtcGxlMREwDwYDVQQLDAhQZXJzb25hbDEtMCsGA1UEAwwkbXlyZXBv
-            LWhhcmJvci5ha3NsYWIxLnRhcC5meW5lc3kuY29tMIICIjANBgkqhkiG9w0BAQEF
-            AAOCAg8AMIICCgKCAgEA6/0aa0CrjRKKN1Ed911ZrcBO/yUIDeQ5ad9+t7DbTswD
-            ofr9St2UkeAOExXlLMa5f9hEPk6KtcDm4rQiow6yhW4qDYt93TGsa6q8ROSR71oR
-            Sh0aH7X/Go6SFykF4BLmDPExyWJC5GLTm0eQPDbulWIjGWzZIYHKimOUJrioyJz1
-            K5iu288+AljlfTfbpxB+QTsmewsjMdbHylu5SERaag4CnNcJlpEAeb5lvrJPRmZj
-            AB5cYyniZ3wfNi4MtfRpavLqetT03hTvNBlzzoPn+uOiIs918iQIr3j1Sns0Oj1X
-            xcAQQuO8M1CHjnJU1gCCpdIbLxS9lWi30u82ZnDfbrR6ZCtiOlHS7yKvjuvsWAmI
-            vdMoKMoieZyBuOnVFfhcEF95YM/VIvWfJSp6dO7K+BqpSfDttif9S753+o6BQCCz
-            9fLey8a+YVdZvz4zQQBdgeM5L4lMG+f/UewYUR+WHwNQ6hc/yXvEJJ+3glii6OKp
-            nHHRLXGB3Y6LLzLG5/Q5NMBkyZtFw2HN3u714N/RQAyMhIs4jwi91LiIvCYnYv/l
-            F/hXjyvSC1PsbgHgp87hdE6bJU+Vk0t5311ntM22r23bJ8akdtoemZUDqKT3IHr/
-            Z+o9v6mOUt8EB+rmBjPdwRNtLzyGuhEMjEO5TLIm0lb0Al6uz+sDRAIQQpSpe3MC
-            AwEAAaOBkTCBjjAfBgNVHSMEGDAWgBQB551zD1Tp6Emxp7hU1rK12wwz7DAJBgNV
-            HRMEAjAAMAsGA1UdDwQEAwIE8DATBgNVHSUEDDAKBggrBgEFBQcDATA+BgNVHREE
-            NzA1gg1teXJlcG8taGFyYm9ygiRteXJlcG8taGFyYm9yLmFrc2xhYjEudGFwLmZ5
-            bmVzeS5jb20wDQYJKoZIhvcNAQENBQADggIBAKhq4qwR2PY/CjsgXrJH3LTc+mkD
-            mYs6TgIQb0spogFCBf47wa1+JxQKRdlOSsn58oT2mr4P5SYkDR9SSJBjQst44VpU
-            9FPiB+EDSDwZpI2YsRukcH5olhnGWkBwJ9QWGHrU30eCGA7Qq1f15QCDdEA5ed73
-            0+yf8JOIx3dDlKEZOkyR7MgQ97T6efPf1/3F2BNURORE+IsyjaXFbbCliMKHXA15
-            GGUD5CW1eVJFkyXQsocnbTTQ+Hp5FmSvVfTmX5Bq+igVVBfYEQkdgzBFS+9Sc9yu
-            AY5lmbAHpbsPORkbP9T1o1z465wJg0wunhDM3bSlDYmUih1p5pWObyKUOQo4Oa7t
-            DM2NCr/zy3LKiOg1rrTMfYzZt14Q+U9HLU8ygUgY+Md+9QnVLyVYpeJDiRaTcewA
-            LJhpXuFLoVlETMBjAa1tEvYfLyTmaYI2T5Ka2BammsEskUPQcZjvEOmf0/KyEg8u
-            ZeV0fcensLk4/RNrIy5JZeF3Ex2OHmtxR7Mx4mPSHjJ9f2XiIuH1UmY6HRpaEBk7
-            seeVdsmV1AQBYBatTidnrmK1xHrb1TjPIU4LW36vkCp7I2zdxn2rhTblPbf/uIur
-            fxDQQELfBw+nli/DLZsYSIF8pvV71dplGwKKCAxeeuJUeaSw9ZVHcDCjy8dqu8wH
-            5jTJJhqTmuJrnxrv
-            -----END CERTIFICATE-----
-            -----BEGIN CERTIFICATE-----
             MIIFszCCA5ugAwIBAgIUTuuiSITdrVr02bLRrOTdnnfV54IwDQYJKoZIhvcNAQEN
             BQAwaTELMAkGA1UEBhMCVVMxDzANBgNVBAgMBkJvc3RvbjEPMA0GA1UEBwwGQm9z
             dG9uMRAwDgYDVQQKDAdleGFtcGxlMREwDwYDVQQLDAhQZXJzb25hbDETMBEGA1UE
