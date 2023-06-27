@@ -12,19 +12,19 @@ tap_install:
 
           image_registry:
             project_path: myrepo-harbor.akslab.tap.fynesy.com/library
-            username: admin
-            password: Harbor12345
+            username: tapuser
+            password: Tap12345
         
         buildservice:
           kp_default_repository: myrepo-harbor.akslab.tap.fynesy.com/library/build-service
-          kp_default_repository_username: admin
-          kp_default_repository_password: Harbor12345
+          kp_default_repository_username: tapuser
+          kp_default_repository_password: Tap12345
         
         learningcenter:
             imageRegistry: 
               host: "myrepo-harbor.akslab.tap.fynesy.com"
-              username: admin
-              password: Harbor12345
+              username: tapuser
+              password: Tap12345
 
 
         ceip_policy_disclosed: true
