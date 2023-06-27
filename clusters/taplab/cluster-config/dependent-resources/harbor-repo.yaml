@@ -10,4 +10,4 @@ metadata:
 spec:
   fetch:
     imgpkgBundle:
-      image: "projects.registry.vmware.com/tkg/packages/standard/harbor:2.6.1"
+      image: "projects.registry.vmware.com/tkg/packages/standard/harbor:v2.6.1_vmware.1-tkg.1"
