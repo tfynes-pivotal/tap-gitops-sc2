@@ -11,18 +11,18 @@ tap_install:
           ingress_issuer: "letsencrypt-production"
 
           image_registry:
-            project_path: myrepo-harbor.akslab1.tap.fynesy.com/library
+            project_path: myrepo-harbor.akslab.tap.fynesy.com/library
             username: admin
             password: Harbor12345
         
         buildservice:
-          kp_default_repository: myrepo-harbor.akslab1.tap.fynesy.com/library/build-service
+          kp_default_repository: myrepo-harbor.akslab.tap.fynesy.com/library/build-service
           kp_default_repository_username: admin
           kp_default_repository_password: Harbor12345
         
         learningcenter:
             imageRegistry: 
-              host: "myrepo-harbor.akslab1.tap.fynesy.com"
+              host: "myrepo-harbor.akslab.tap.fynesy.com"
               username: admin
               password: Harbor12345
 
@@ -34,7 +34,7 @@ tap_install:
 
         ootb_supply_chain_basic: 
           registry:
-            server: "myrepo-harbor.akslab1.tap.fynesy.com"
+            server: "myrepo-harbor.akslab.tap.fynesy.com"
             repository: "library"
           gitops:
             ssh_secret: ""
