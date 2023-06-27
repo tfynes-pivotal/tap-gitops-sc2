@@ -6,5 +6,6 @@ subjectAltName = @alt_names
 
 [alt_names]
 DNS.1=myrepo-harbor
-DNS.2=myrepo-harbor.akslab1.tap.fynesy.com
+DNS.2=myrepo-harbor.akslab.tap.fynesy.com
+DNS.2=*.akslab.tap.fynesy.com
 
