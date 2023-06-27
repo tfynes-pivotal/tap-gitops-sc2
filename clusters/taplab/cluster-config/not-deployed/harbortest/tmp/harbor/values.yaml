@@ -1,7 +1,7 @@
 expose:
   # Set how to expose the service. Set the type as "ingress", "clusterIP", "nodePort" or "loadBalancer"
   # and fill the information in the corresponding section
-  type: clusterIP
+  type: loadBalancer
   tls:
     # Enable TLS or not.
     # Delete the "ssl-redirect" annotations in "expose.ingress.annotations" when TLS is disabled and "expose.type" is "ingress"
@@ -20,7 +20,7 @@ expose:
     auto:
       # The common name used to generate the certificate, it's necessary
       # when the type isn't "ingress"
-      commonName: "myrepo-harbor.akslab1.tap.fynesy.com"
+      commonName: "myrepo-harbor.akslab.tap.fynesy.com"
     secret: 
       # The name of secret which contains keys named:
       # "tls.crt" - the certificate
@@ -124,7 +124,7 @@ expose:
 # the IP address of k8s node
 #
 # If Harbor is deployed behind the proxy, set it as the URL of proxy
-externalURL: https://myrepo-harbor.akslab1.tap.fynesy.com
+externalURL: https://myrepo-harbor.akslab.tap.fynesy.com
 
 # The internal TLS used for harbor components secure communicating. In order to enable https
 # in each components tls cert files need to provided in advance.
