@@ -52,6 +52,42 @@ tap_install:
             project_path: myrepo-harbor.akslab.tap.fynesy.com/library
             username: admin
             password: Harbor12345
+            ca_cert_data: |
+                  -----BEGIN CERTIFICATE-----
+                  MIIGGTCCBAGgAwIBAgIUbv8QIxIFIOt0UExRWr0WzaHsQEYwDQYJKoZIhvcNAQEL
+                  BQAwgYkxCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJNQTESMBAGA1UEBwwJSG9sbGlz
+                  dG9uMQ4wDAYDVQQKDAVUYW56dTEOMAwGA1UECwwFVGFuenUxIDAeBgNVBAMMFyou
+                  YWtzbGFiLnRhcC5meW5lc3kuY29tMRcwFQYJKoZIhvcNAQkBFghhQGJiLmNvbTAe
+                  Fw0yMzA2MjcxOTM3MjRaFw0yNDA2MjYxOTM3MjRaMIGJMQswCQYDVQQGEwJVUzEL
+                  MAkGA1UECAwCTUExEjAQBgNVBAcMCUhvbGxpc3RvbjEOMAwGA1UECgwFVGFuenUx
+                  DjAMBgNVBAsMBVRhbnp1MSAwHgYDVQQDDBcqLmFrc2xhYi50YXAuZnluZXN5LmNv
+                  bTEXMBUGCSqGSIb3DQEJARYIYUBiYi5jb20wggIiMA0GCSqGSIb3DQEBAQUAA4IC
+                  DwAwggIKAoICAQC745ttxKkZ80pD2Wthvo5c+zTh3qT3hWZ3cgGzNQ+yKJBGAKj3
+                  ciKutepYZXnJ4rcb8ZimWr2PT+WyewihV087UmJAVTDamEh8z0jHPtlxJGDW7zME
+                  dk13Slm6iadcbH0G3CQhlu1TX8Df3Ilj5JhsRbTGhoVwyn+zbXb+19kV91wZboWy
+                  5yUiBqXk+OrRSQB4M1lzanE6g2/dhS59T8GDLd/+vSmTJY9Zonw8extF+HBDdKoE
+                  KrfIUpapKWyCG1DEVHfh8R4BrdoaoykED+HGHQ+ZWroWWsjGcvs6ZiUwIaXQFlKP
+                  FDwdAPUrhVS6NkG77iKIahscKBpOe6wysSK3c9A/ixVT8sXwVfV26Ef+GjuCRoLF
+                  AlPtHzkHkqJUBxCoj+E6vHffjZrWZw35cM8wenBl9f64FRUfQCFr4TCBd3WX0Iet
+                  dNHFB4NMloKgYeaMT6+HPaxUiYcon++qbY/MSObqtmOdysqN0DvkwjIVv27gCy2j
+                  dTXnth3m8Ka2UFTHF2SG+4oAQ9vFdYj9V4Yx9T+ou1u196ex0s52fPTVkK4OBg9O
+                  tmaLj09gIvnbx44oHZyV7wcMD0xnzYmWzjUYHv3nkK7dQdotSuwhRTFCgpjzldWp
+                  e8lQXJP4C6hlYM3M8bW6qWhwyFRerKDytw/sHN3Eo4QY7qpSBx9DW9XjbQIDAQAB
+                  o3cwdTAdBgNVHQ4EFgQUfN7WyW7/Phn9BGbkSG+Gj02qn+wwHwYDVR0jBBgwFoAU
+                  fN7WyW7/Phn9BGbkSG+Gj02qn+wwDwYDVR0TAQH/BAUwAwEB/zAiBgNVHREEGzAZ
+                  ghcqLmFrc2xhYi50YXAuZnluZXN5LmNvbTANBgkqhkiG9w0BAQsFAAOCAgEAFG4Y
+                  EhQuBKi6lEF/LLFQnpIRuJOzoZvODyFvSrvvvYWPV8QDq+/35BlV9u7AozRuNizh
+                  ao6dLkvHxIUzCS70rEzJkoV186BM5o1P3dYZfIRz3SyXRKUK8uBdAS48E9I6xHCi
+                  jzpBXkgelEkVlEfkIWSFbnT49XpuidXChvyC3sInhR7L+2F8IjNj+8Ds4j87Oy1z
+                  mVnAu4BQERZJWUeSdTuaZdjgZOXSYfBvvRC/pd8SFqiNDMYxd5BxoLeRgAT0iCBI
+                  qsreq+WehaMpTeEwWmOvfvqei0zLQTpwkE/h8CfAAWamotMIbO8JlIECCYJ1cmIY
+                  V+eryG1Oo1CVsa3y3PHkOnYpjWpfUPpu19AL+dVGDp88fBasc7QQOaDlFGUK490M
+                  hGcl0WM+bNHyyEayT+jHuqcYPgGVBW9c8Oz4Kw8jPVg95pU8MYYyXzs1dbKjhnho
+                  TSuMPCQXwMiYlJuowBANTs7x1vAsruaEqvGU+t9Ytdsx084fbUbTNcnlNdNBJqoB
+                  OU3iLR3lcXDNK+8Xujqk28dAhdZ7yUnRVFQ2NMW4biDIeKG8VEB81t7vuz97+mbN
+                  poboEvusGO+NlAKAYeGNxj5WR37J5amKAtB0I2vT/0uC7p8zQlLHNpHxiuAHnVPa
+                  hyboP42/GLAHuHm36WNqQRVWFJXA5c0VoC+IOM8=
+                  -----END CERTIFICATE-----
         
         buildservice:
           kp_default_repository: myrepo-harbor.akslab.tap.fynesy.com/library/build-service
