@@ -33,8 +33,8 @@ expose:
       notarySecretName: "harborcerts"
   ingress:
     hosts:
-      core: core.harbor.domain
-      notary: notary.harbor.domain
+      core: core.akslab.tap.fynesy.com"
+      notary: notary.akslab.tap.fynesy.com"
     # set to the type of ingress controller if it has specific requirements.
     # leave as `default` for most ingress controllers.
     # set to `gce` if using the GCE ingress controller
@@ -258,7 +258,7 @@ persistence:
     # Refer to
     # https://github.com/docker/distribution/blob/master/docs/configuration.md#redirect
     # for the detail.
-    disableredirect: false
+    disableredirect: true
     # Specify the "caBundleSecretName" if the storage service uses a self-signed certificate.
     # The secret must contain keys named "ca.crt" which will be injected into the trust store
     # of registry's containers.
