@@ -1,0 +1,13 @@
+#@ load("@ytt:data", "data")
+---
+apiVersion: packaging.carvel.dev/v1alpha1
+kind: PackageRepository
+metadata:
+  name: harbor 
+  namespace: tap-install
+  annotations:
+    kapp.k14s.io/change-group: harbor-repo
+spec:
+  fetch:
+    imgpkgBundle:
+      image: "projects.registry.vmware.com/tkg/packages/standard/harbor:2.8.2"
