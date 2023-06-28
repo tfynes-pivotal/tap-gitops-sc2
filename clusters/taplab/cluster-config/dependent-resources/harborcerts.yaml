@@ -98,7 +98,7 @@
 apiVersion: v1
 kind: Secret
 metadata:
-  name: harborcerts2
+  name: harborcerts
   namespace: harbor
 type: kubernetes.io/tls
 data:
