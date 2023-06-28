@@ -1,0 +1,18 @@
+#@ load("@ytt:json", "json")
+#@ load("@ytt:base64", "base64")
+#@ load("@ytt:data", "data")
+
+#@ username = 'admin'
+#@ password = 'Harbor12345'
+#@ server   = 'myrepo-harbor.akslab.tap.fynesy.com'
+
+apiVersion: v1
+kind: Secret
+metadata:
+  name: docker-config-ytt-test
+  namespace: default
+type: kubernetes.io/dockerconfigjson
+data:
+  #@ docker_auth = base64.encode("{}:{}".format(username, password))
+  #@ docker_creds = {"username": username, "password": password, "auth": docker_auth}
+  .dockerconfigjson: #@ base64.encode(json.encode({"auths": {server: docker_creds}}))

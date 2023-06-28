@@ -68,3 +68,5 @@ clusters/taplab/cluster-config/not-deployed/harbortest/tmp/harbor/.values.yaml.s
 .DS_Store
 clusters/taplab/cluster-config/sensitive-file-structures/tap-sensitive-values-12.yaml
 clusters/taplab/cluster-config/not-deployed/harbortest/gj/ca.srl
+clusters/taplab/cluster-config/not-deployed/harbortest/gj/ca.key
+clusters/taplab/cluster-config/not-deployed/harbortest/gj/tls.key
