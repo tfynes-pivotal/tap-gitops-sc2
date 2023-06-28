@@ -43,7 +43,7 @@
 
 
 #@ def getEncodedKey():
-tls.key: |
+key: |
 -----BEGIN RSA PRIVATE KEY-----
 MIIJKgIBAAKCAgEAuj/7cieyZCPLboySNIyQunLNev/bWPFRVaKuLIjsld5k3toh
 CIs3dcLvRIp/Uefov01d3INGjx25G+14bDlloe6fFoUmtm62LNy5ApgceCxs3bSj
@@ -110,4 +110,4 @@ data:
   #@ encoded_crt = base64.encode(crt)
   #@ encoded_key = base64.encode(key)
   tls.crt: #@ base64.encode(encoded_crt)
-  tls.key: #@ getEncodedKey()
+  key: #@ getEncodedKey()
