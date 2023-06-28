@@ -47,7 +47,7 @@ value: |
   this is 
   a test
 
-return asString(value)
+return asString(value:)
 #@ end
 
 
