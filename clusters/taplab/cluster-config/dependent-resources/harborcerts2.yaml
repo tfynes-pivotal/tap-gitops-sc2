@@ -42,6 +42,12 @@
 #@ """
 
 #@ key = "key"
+#@ def getKey():
+value: |
+  this is 
+  a test
+#@ end
+
 
 apiVersion: v1
 kind: Secret
@@ -53,4 +59,4 @@ data:
   #@ encoded_crt = base64.encode(crt)
   #@ encoded_key = base64.encode(key)
   tls.crt: #@ base64.encode(encoded_crt)
-  tls.key: #@ base64.encode(encoded_key)
+  tls.key: #@ base64.encode(getKey())
