@@ -46,8 +46,6 @@
 value: |
   this is 
   a test
-
-return asString(value:)
 #@ end
 
 
