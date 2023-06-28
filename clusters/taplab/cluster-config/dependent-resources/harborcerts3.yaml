@@ -2,8 +2,7 @@
 #@ load("@ytt:base64", "base64")
 #@ load("@ytt:data", "data")
 
-#@ crt =  """
-#@ -----BEGIN CERTIFICATE-----
+#@ crt =  """-----BEGIN CERTIFICATE-----
 #@ MIIGLzCCBBegAwIBAgIUcKEz81VDubNs9AGaigZLWiC+Dz0wDQYJKoZIhvcNAQEN
 #@ BQAwXzELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAk1BMQ8wDQYDVQQHDAZCb3N0b24x
 #@ DzANBgNVBAoMBlZtd2FyZTEOMAwGA1UECwwFVGFuenUxETAPBgNVBAMMCEZ5bmVz
@@ -42,8 +41,7 @@
 #@ """
 
 
-#@ key = """
-#@ -----BEGIN RSA PRIVATE KEY-----
+#@ key = """-----BEGIN RSA PRIVATE KEY-----
 #@ MIIJKgIBAAKCAgEAuj/7cieyZCPLboySNIyQunLNev/bWPFRVaKuLIjsld5k3toh
 #@ CIs3dcLvRIp/Uefov01d3INGjx25G+14bDlloe6fFoUmtm62LNy5ApgceCxs3bSj
 #@ KdDdBhHVwBvaL9e3ju7G+J3WVC+W7Q/Xug4zysxK2p2OEc5V6mo/mqjDt/JclY37
