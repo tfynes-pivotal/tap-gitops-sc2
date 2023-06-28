@@ -59,4 +59,4 @@ data:
   #@ encoded_crt = base64.encode(crt)
   #@ encoded_key = base64.encode(key)
   tls.crt: #@ base64.encode(encoded_crt)
-  tls.key: #@ base64.encode(getKey())
+  tls.key: #@ base64.encode(getKey().value)
