@@ -46,6 +46,8 @@
 value: |
   this is 
   a test
+
+return value
 #@ end
 
 
