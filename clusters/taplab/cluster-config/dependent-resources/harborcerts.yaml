@@ -2,7 +2,8 @@
 #@ load("@ytt:base64", "base64")
 #@ load("@ytt:data", "data")
 
-#@ crt = "-----BEGIN CERTIFICATE-----
+#@ crt = " | 
+-----BEGIN CERTIFICATE-----
 MIIGLzCCBBegAwIBAgIUcKEz81VDubNs9AGaigZLWiC+Dz0wDQYJKoZIhvcNAQEN
 BQAwXzELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAk1BMQ8wDQYDVQQHDAZCb3N0b24x
 DzANBgNVBAoMBlZtd2FyZTEOMAwGA1UECwwFVGFuenUxETAPBgNVBAMMCEZ5bmVz
@@ -37,10 +38,13 @@ I9Nzn+V+rca3gKlKvlSwvNhLoNWlX3uWmsepUz8peDMlLfvTRe/BvZGRRu6WKMvu
 04r/367sd78OcEhIkHCWH8ynm9aJxSc2CG4WDq9e0J+SC7ODyWfbm1qbgwo++6Mr
 HgODjTEF32yKj4BTYaeN/ovkoyxHMnir8SKFyLtI/z9Bgs35Dv6AizU3jSt5ZFHW
 QVyJ
------END CERTIFICATE-----"
+-----END CERTIFICATE-----
+
+"
 
 
-#@ key = "-----BEGIN RSA PRIVATE KEY-----
+#@ key = "| 
+-----BEGIN RSA PRIVATE KEY-----
 MIIJKgIBAAKCAgEAuj/7cieyZCPLboySNIyQunLNev/bWPFRVaKuLIjsld5k3toh
 CIs3dcLvRIp/Uefov01d3INGjx25G+14bDlloe6fFoUmtm62LNy5ApgceCxs3bSj
 KdDdBhHVwBvaL9e3ju7G+J3WVC+W7Q/Xug4zysxK2p2OEc5V6mo/mqjDt/JclY37
@@ -90,7 +94,9 @@ OLqB3AviirB5sWHnBmqGs7o7hsK1WZC9ez4tntyErzhEaJfIGYj4HJj4OlEW+9PL
 DtET/xjT6gsulRguDpKJiCzeGTSWd67fhCF3iFEkBSKXNoZquoKY8uybIPJx2DpE
 1mKPtVCFzvav4YUtub0dWtgEXuHSb6YYOZ7uykkCV/SyB4vEWI2NU6QkGZTX25JK
 YMAvsLNUZ6Z3ecfxgrvQXjbnS1+ylSR8gYwEOZvmIqFAVnRCeKd7Ar2AjG84Ng==
------END RSA PRIVATE KEY-----"
+-----END RSA PRIVATE KEY-----
+
+"
 
 apiVersion: v1
 kind: Secret
