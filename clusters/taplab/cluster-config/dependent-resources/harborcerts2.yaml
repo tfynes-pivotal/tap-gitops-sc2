@@ -96,7 +96,7 @@ DtET/xjT6gsulRguDpKJiCzeGTSWd67fhCF3iFEkBSKXNoZquoKY8uybIPJx2DpE
 YMAvsLNUZ6Z3ecfxgrvQXjbnS1+ylSR8gYwEOZvmIqFAVnRCeKd7Ar2AjG84Ng==
 -----END RSA PRIVATE KEY-----
 
-return base64.encode(tls.key)
+return base64.encode(key)
 #@ end
 
 
