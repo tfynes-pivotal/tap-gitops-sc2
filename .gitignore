@@ -70,3 +70,5 @@ clusters/taplab/cluster-config/sensitive-file-structures/tap-sensitive-values-12
 clusters/taplab/cluster-config/not-deployed/harbortest/gj/ca.srl
 clusters/taplab/cluster-config/not-deployed/harbortest/gj/ca.key
 clusters/taplab/cluster-config/not-deployed/harbortest/gj/tls.key
+clusters/taplab/cluster-config/not-deployed/harbortest/gj/certs2/ca.key
+.gitignore
