@@ -1,0 +1,16 @@
+apiVersion: projectcontour.io/v1
+kind: HTTPProxy
+metadata:
+  name: harbor-gateway
+  namespace: harbor
+spec:
+  routes:
+    - conditions:
+      - prefix: /
+      services: 
+        - name: harbor-gateway
+          port: 80
+  virtualhost:
+    fqdn: myrepo-harbor.akslab1.tap.fynesy.com
+    tls:
+      secretName: harbor-gateway-tls-cert
