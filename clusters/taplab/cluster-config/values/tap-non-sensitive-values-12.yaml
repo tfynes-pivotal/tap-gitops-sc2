@@ -1,260 +1,260 @@
 ---
 tap_install:
   values: 
-        shared:
-          ca_cert_data: |
-            -----BEGIN CERTIFICATE-----
-            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
-            9bE3
-            -----END CERTIFICATE-----
+    shared:
+      ca_cert_data: |
+        -----BEGIN CERTIFICATE-----
+        MIIGCTCCA/GgAwIBAgIUENA4fR3R38ZWDLxO6WjaPSdTs3gwDQYJKoZIhvcNAQEL
+        BQAwgZMxCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJNQTEPMA0GA1UEBwwGQm9zdG9u
+        MQ8wDQYDVQQKDAZ2bXdhcmUxDjAMBgNVBAsMBXRhbnp1MSwwKgYDVQQDDCNteXJl
+        cG8taGFyYm9yLmFrc2xhYi50YXAuZnluZXN5LmNvbTEXMBUGCSqGSIb3DQEJARYI
+        YUBiYi5jb20wHhcNMjMwNzA2MTM1NDI0WhcNMjQwNzA1MTM1NDI0WjCBkzELMAkG
+        A1UEBhMCVVMxCzAJBgNVBAgMAk1BMQ8wDQYDVQQHDAZCb3N0b24xDzANBgNVBAoM
+        BnZtd2FyZTEOMAwGA1UECwwFdGFuenUxLDAqBgNVBAMMI215cmVwby1oYXJib3Iu
+        YWtzbGFiLnRhcC5meW5lc3kuY29tMRcwFQYJKoZIhvcNAQkBFghhQGJiLmNvbTCC
+        AiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAOklH6wTXL25kNPnujwHvemc
+        QcqIeuoTU8VBNHXgqXKX6JHffNZaiB2xSsf7vFxJAdiy8eEZIH5i4OsoxA6U9ENl
+        c2VaA4kw77oSqX1TNTS/ZyTvLR9+NcvR6d2tU91+r0kUX/fqLO9WApVIzR+JdYbL
+        7rISPuiziwpgikUSpKwt9MFpe9+cgm/ELC+mJwSBX2FhGtJbPzHRq0wvea3TK9Hy
+        7cU46SinDbf8JKfyI6daHS7eBj+GBiBehnHn4gGLxsEUJrGrYAMiDdBli7SQk8wk
+        AyQgeLRx441XnAefE/3ewL6hDjgSY+z1/nQOhQWGI/rf6hx9Ls8r6Jy+UJRA8pWg
+        WgIWdqVuZsaUNLNVW9qAcqMehSYNF5Ja9m0qeoZZeph2mnfX8fl+u7ePVJ3d+6EY
+        xtehq5A0Hitt4E0WSsNHPHmsmGbcrYIikN2+7bpDU0vj5wuncJeXnt9B1vlBx2ru
+        1HcNMz5TFE7JQ+iQFdS0Ho229o6IftYbh3yAG8NUs4qT+w5Q8VvQa02UEO7pR9p+
+        OG1VANtIjZEDPRejehDxyWwL97C6DHHYC8OnD/p1Q78am1Ba7l89vho0T0Nf1ALu
+        Qgr0cBk66UVwP3LMlWRvUWErNaOZhpE5pe3rmJczjDL5babA3Cfw2OQ10Ae/Nf/x
+        4orkaNVHFm8ZErzN7dfxAgMBAAGjUzBRMB0GA1UdDgQWBBSrtQjXXgXzpEnTtpmU
+        eqvVQK18MjAfBgNVHSMEGDAWgBSrtQjXXgXzpEnTtpmUeqvVQK18MjAPBgNVHRMB
+        Af8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQAo4S+pskx75u5WQ8uITqdcAJTQ
+        Nv9E+o07gqVG/s8oXSpClxyqsE3AQNheZwMEC8uiTGk97JWcpKf5RUfJy/CXyxbq
+        0BoW4dsQkHG5QB12ktypwXqTWp+anLs5z3qo/JD2ueQU8MmtFO+riPWG/ST5nq0n
+        Hoz/5iuDUqB5Het6PaXfO6jIJd/bCwWCOaSpQBt6CmL4KfNKbR+JnP7XGRK1v7qu
+        xJK7KyopIRXzJ4mEgB5zMPQKvOP0vq0OxkHRYJPT2JX0862B8EFt8raYNP9uiCsc
+        nOTaPvFEGGrom3rtR+2QubD0bMfUSZD9lJm0zHnG3oEOQup8JdEt1vE7TKvpHjRX
+        uYbkml+Tj2qvJDtCsD75JLn1QZRrT96hGgn+glVqTvvlEvN8g3v++dqCAfgs9/42
+        JBO3MXz5S4l08gyOQhnUQz97PQHxnIZwF8HWp3FZjO7lOC8JlkwOteA3AruA4Ga3
+        MKs/Vv1FAJbyUjIz1Zwg6HMj22ow2ZJ/1K2+AZJ1epHzN7de0OyyMG43rtBxe8kw
+        9UEu54pA5fuUltAcfvpIPhcu+G4R2FW5OaVXweLY4IUqRaQJCFDnsE7ECKb7SO2w
+        6E2rqVUBclP6qoUp2rT7dwT3Nin6Q6kFhEf/aT2WszDQIOl2/xT1lmRMCm0oM74O
+        Yfx1xxJ/haluwBsBlw==
+        -----END CERTIFICATE-----
 
 
 
 
+      ingress_domain: "akslab1.tap.fynesy.com"
+      ingress_issuer: "letsencrypt-production"
+    
+    ceip_policy_disclosed: true
 
-          ingress_domain: "akslab1.tap.fynesy.com"
-          ingress_issuer: "letsencrypt-production"
+    image_registry:
+      project_path: myrepo-harbor.akslab.tap.fynesy.com/library
+      username: admin
+      password: Harbor12345
+    
+    buildservice:
+      kp_default_repository: myrepo-harbor.akslab.tap.fynesy.com/library/build-service
+      kp_default_repository_username: admin
+      kp_default_repository_password: Harbor12345
+      
+    learningcenter:
+      imageRegistry: 
+        host: "myrepo-harbor.akslab.tap.fynesy.com"
+        username: admin
+        password: Harbor12345
 
-          image_registry:
-            project_path: myrepo-harbor.akslab.tap.fynesy.com/library
-            username: admin
-            password: Harbor12345
-        
-        buildservice:
-          kp_default_repository: myrepo-harbor.akslab.tap.fynesy.com/library/build-service
-          kp_default_repository_username: admin
-          kp_default_repository_password: Harbor12345
-        
-        learningcenter:
-            imageRegistry: 
-              host: "myrepo-harbor.akslab.tap.fynesy.com"
-              username: admin
-              password: Harbor12345
+    profile: full 
+    supply_chain: basic 
 
+    ootb_supply_chain_basic: 
+      registry:
+        server: "myrepo-harbor.akslab.tap.fynesy.com"
+        repository: "library"
+      gitops:
+        ssh_secret: ""
 
-        ceip_policy_disclosed: true
-
-        profile: full 
-        supply_chain: basic 
-
-        ootb_supply_chain_basic: 
-          registry:
-            server: "myrepo-harbor.akslab.tap.fynesy.com"
-            repository: "library"
-          gitops:
-            ssh_secret: ""
-
-        contour:
-          envoy:
-            service:
-              type: LoadBalancer 
+    contour:
+      envoy:
+        service:
+          type: LoadBalancer 
 
 
-        tap_gui:
-          service_type: ClusterIP # If the shared.ingress_domain is set as earlier, this must be set to ClusterIP.
-          metadataStoreAutoconfiguration: true 
-          app_config:
-            auth:
-              allowGuestAccess: true
-            catalog:
-              locations:
-                - type: url
-                  target: http://github.com/tfynes-pivotal/tapblankcatalog/blob/main/catalog-info.yaml
+    tap_gui:
+      service_type: ClusterIP # If the shared.ingress_domain is set as earlier, this must be set to ClusterIP.
+      metadataStoreAutoconfiguration: true 
+      app_config:
+        auth:
+          allowGuestAccess: true
+        catalog:
+          locations:
+            - type: url
+              target: http://github.com/tfynes-pivotal/tapblankcatalog/blob/main/catalog-info.yaml
 
-        metadata_store:
-          ns_for_export_app_cert: "*"
-          app_service_type: ClusterIP # Defaults to LoadBalancer. If shared.ingress_domain is set earlier, this must be set to ClusterIP.
+    metadata_store:
+      ns_for_export_app_cert: "*"
+      app_service_type: ClusterIP # Defaults to LoadBalancer. If shared.ingress_domain is set earlier, this must be set to ClusterIP.
 
-        scanning:
-          metadataStore:
-            url: "" 
+    scanning:
+      metadataStore:
+        url: "" 
 
-        grype:
-          namespace: "default"
-          targetImagePullSecret: "tap-registry"
-          # In a single cluster, the connection between the scanning pod and the metadata store happens inside the cluster and does not pass through ingress. This is automatically configured, you do not need to provide an ingress connection to the store.
+    grype:
+      namespace: "default"
+      targetImagePullSecret: "tap-registry"
+      # In a single cluster, the connection between the scanning pod and the metadata store happens inside the cluster and does not pass through ingress. This is automatically configured, you do not need to provide an ingress connection to the store.
 
-        policy:
-          tuf_enabled: false 
+    policy:
+      tuf_enabled: false 
 
-        cnrs:
-          domain_template: '{{.Name}}-{{.Namespace}}.{{.Domain}}'
+    cnrs:
+      domain_template: '{{.Name}}-{{.Namespace}}.{{.Domain}}'
 
-        api_portal:
-          apiPortalServer:
-            #!sourceUrls: https://petstore.swagger.io/v2/swagger.json,http://10.0.166.161/openapi
-            sourceUrls: https://petstore.swagger.io/v2/swagger.json,http://customer-profile-x.default.svc.cluster.local:8080/api-docs,http://scg-operator.tap-install.svc.cluster.local/openapi
-            trustInsecureSourceUrls: true
-            sourceUrlsCacheTtlSec: "30"
-            sourceUrlsTimeoutSec: "30"
-          sso:
-            enabled: true
-            secretName: sso-credentials
-            apiManager:
-              roles: tanzu.read
-          apiKey:
-            enabled: true
-            vault:
-              url: http://vault.vault.svc:8200/
-              role: api-portal-role
-              path: api-portal-for-vmware-tanzu
-          serviceAccount:
-            create: true
-            name: api-portal
+    api_portal:
+      apiPortalServer:
+        #!sourceUrls: https://petstore.swagger.io/v2/swagger.json,http://10.0.166.161/openapi
+        sourceUrls: https://petstore.swagger.io/v2/swagger.json,http://customer-profile-x.default.svc.cluster.local:8080/api-docs,http://scg-operator.tap-install.svc.cluster.local/openapi
+        trustInsecureSourceUrls: true
+        sourceUrlsCacheTtlSec: "30"
+        sourceUrlsTimeoutSec: "30"
+      sso:
+        enabled: true
+        secretName: sso-credentials
+        apiManager:
+          roles: tanzu.read
+      apiKey:
+        enabled: true
+        vault:
+          url: http://vault.vault.svc:8200/
+          role: api-portal-role
+          path: api-portal-for-vmware-tanzu
+      serviceAccount:
+        create: true
+        name: api-portal
 
-        namespace_provisioner:
-          controller: false
-          gitops_install:
-            ref: origin/harbortest
-            subPath: clusters/taplab/cluster-config/namespaces
-            url: https://github.com/tfynes-pivotal/tap-gitops-sc2
-          additional_sources:
-          - git:
-              ref: origin/harbortest
-              subPath: clusters/taplab/cluster-config/namespaces/namespace-resources
-              url: https://github.com/tfynes-pivotal/tap-gitops-sc2
-            path: _ytt_lib/namespace-resources
-        #!  import_data_values_secrets:
-        #!   - name: my-dockerhub-credentials
-        #!     namespace: tap-install
-        #!     create_export: true
-        package_overlays:
-        - name: api-portal
-          secrets:
-          - name: api-portal-cm-tls-overlay-secret
-          #!- name: reqfix-overlay-secret
-        - name: accelerator
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: api-auto-registration
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: appliveview
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: appliveview-apiserver
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: appliveview-connector
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: appliveview-conventions
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: appsso
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: bitnami-services
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: buildservice
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: cartographer
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: cert-manager
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: cnrs
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: contour
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: crossplane
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: developer-conventions
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: eventing
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: fluxcd-source-controller
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: grype
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: learningcenter
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: learningcenter-workshops
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: metadata-store
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: namespace-provisioner
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: ootb-delivery-basic
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: ootb-supply-chain-basic
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: ootb-templates
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: policy-controller
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: scanning
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: service-bindings
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: services-toolkit
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: source-controller
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: spring-boot-conventions
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: tap-auth
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: tap-gui
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: tap-telemetry
-          secrets:
-          - name: reqfix-overlay-secret
-        - name: tekton-pipelines
-          secrets:
-          - name: reqfix-overlay-secret
+    namespace_provisioner:
+      controller: false
+      gitops_install:
+        ref: origin/harbortest
+        subPath: clusters/taplab/cluster-config/namespaces
+        url: https://github.com/tfynes-pivotal/tap-gitops-sc2
+      additional_sources:
+      - git:
+          ref: origin/harbortest
+          subPath: clusters/taplab/cluster-config/namespaces/namespace-resources
+          url: https://github.com/tfynes-pivotal/tap-gitops-sc2
+        path: _ytt_lib/namespace-resources
+    #!  import_data_values_secrets:
+    #!   - name: my-dockerhub-credentials
+    #!     namespace: tap-install
+    #!     create_export: true
+    package_overlays:
+    - name: api-portal
+      secrets:
+      - name: api-portal-cm-tls-overlay-secret
+      #!- name: reqfix-overlay-secret
+    - name: accelerator
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: api-auto-registration
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: appliveview
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: appliveview-apiserver
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: appliveview-connector
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: appliveview-conventions
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: appsso
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: bitnami-services
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: buildservice
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: cartographer
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: cert-manager
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: cnrs
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: contour
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: crossplane
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: developer-conventions
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: eventing
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: fluxcd-source-controller
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: grype
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: learningcenter
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: learningcenter-workshops
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: metadata-store
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: namespace-provisioner
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: ootb-delivery-basic
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: ootb-supply-chain-basic
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: ootb-templates
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: policy-controller
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: scanning
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: service-bindings
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: services-toolkit
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: source-controller
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: spring-boot-conventions
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: tap-auth
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: tap-gui
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: tap-telemetry
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: tekton-pipelines
+      secrets:
+      - name: reqfix-overlay-secret
 
