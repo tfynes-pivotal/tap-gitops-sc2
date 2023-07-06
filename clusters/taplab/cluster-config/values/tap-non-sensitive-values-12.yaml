@@ -2,6 +2,8 @@
 tap_install:
   values: 
     shared:
+      ingress_domain: "akslab1.tap.fynesy.com"
+      ingress_issuer: "letsencrypt-production"
       ca_cert_data: |
         -----BEGIN CERTIFICATE-----
         MIIGCTCCA/GgAwIBAgIUENA4fR3R38ZWDLxO6WjaPSdTs3gwDQYJKoZIhvcNAQEL
@@ -39,13 +41,9 @@ tap_install:
         Yfx1xxJ/haluwBsBlw==
         -----END CERTIFICATE-----
 
-
-
-
-      ingress_domain: "akslab1.tap.fynesy.com"
-      ingress_issuer: "letsencrypt-production"
-    
     ceip_policy_disclosed: true
+    profile: full 
+    supply_chain: basic 
 
     image_registry:
       project_path: myrepo-harbor.akslab.tap.fynesy.com/library
@@ -63,8 +61,6 @@ tap_install:
         username: admin
         password: Harbor12345
 
-    profile: full 
-    supply_chain: basic 
 
     ootb_supply_chain_basic: 
       registry:
