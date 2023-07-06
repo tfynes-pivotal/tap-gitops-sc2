@@ -8,7 +8,7 @@ spec:
     - conditions:
       - prefix: /
       services: 
-        - name: harbor-gateway
+        - name: myrepo-harbor
           port: 80
   virtualhost:
     fqdn: myrepo-harbor.akslab1.tap.fynesy.com
