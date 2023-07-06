@@ -46,14 +46,14 @@ tap_install:
     supply_chain: basic 
     
     buildservice:
-      kp_default_repository: myrepo-harbor.akslab.tap.fynesy.com/library/build-service
+      kp_default_repository: myrepo-harbor.akslab.tap.fynesy.com/library/buildservice
       kp_default_repository_username: admin
       kp_default_repository_password: Harbor12345
 
-      image_registry:
-        project_path: myrepo-harbor.akslab.tap.fynesy.com/library
-        username: admin
-        password: Harbor12345
+      # image_registry:
+      #   project_path: myrepo-harbor.akslab.tap.fynesy.com/library
+      #   username: admin
+      #   password: Harbor12345
     
       
     learningcenter:
