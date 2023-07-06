@@ -44,16 +44,17 @@ tap_install:
     ceip_policy_disclosed: true
     profile: full 
     supply_chain: basic 
-
-    image_registry:
-      project_path: myrepo-harbor.akslab.tap.fynesy.com/library
-      username: admin
-      password: Harbor12345
     
     buildservice:
       kp_default_repository: myrepo-harbor.akslab.tap.fynesy.com/library/build-service
       kp_default_repository_username: admin
       kp_default_repository_password: Harbor12345
+
+      image_registry:
+        project_path: myrepo-harbor.akslab.tap.fynesy.com/library
+        username: admin
+        password: Harbor12345
+    
       
     learningcenter:
       imageRegistry: 
