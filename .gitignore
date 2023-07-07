@@ -65,3 +65,6 @@ clusters/taplab/cluster-config/not-deployed/harbortest/tmp/harbor/templates/triv
 clusters/taplab/cluster-config/not-deployed/harbortest/tmp/harbor/templates/trivy/trivy-sts.yaml
 clusters/taplab/cluster-config/not-deployed/harbortest/tmp/harbor/templates/trivy/trivy-svc.yaml
 clusters/taplab/cluster-config/not-deployed/harbortest/tmp/harbor/templates/trivy/trivy-tls.yaml
+clusters/taplab/cluster-config/not-deployed/harbortest/gj/certs2/ca.key
+clusters/taplab/cluster-config/not-deployed/harbortest/gj/certs3/tls.key
+clusters/taplab/cluster-config/not-deployed/harbortest/gj/certs2/tls.crt.original
