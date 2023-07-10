@@ -1,12 +1,12 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: harbor-gateway-cert
+  name: harbor-cert
   namespace: harbor
 spec:
   dnsNames:
   - myrepo-harbor.akslab1.tap.fynesy.com
-  secretName: harbor-gateway-tls-cert
+  secretName: harbor-tls-cert
   issuerRef:
     name: letsencrypt-production
     kind: ClusterIssuer
