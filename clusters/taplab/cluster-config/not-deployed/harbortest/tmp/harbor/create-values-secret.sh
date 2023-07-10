@@ -1,0 +1,1 @@
+kubectl -n harbor2 create secret generic harborvalues --from-file ./values.yaml
