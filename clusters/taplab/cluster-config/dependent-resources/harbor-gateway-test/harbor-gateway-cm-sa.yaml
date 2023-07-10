@@ -3,6 +3,3 @@ kind: ServiceAccount
 metadata:
   name: cm-sa
   namespace: harbor
-#imagePullSecrets:
-#- name: api-portal-image-pull-secret
-  #namespace: harbor
