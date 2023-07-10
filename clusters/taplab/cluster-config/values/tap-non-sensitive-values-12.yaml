@@ -4,28 +4,6 @@ tap_install:
     shared:
       ingress_domain: "akslab1.tap.fynesy.com"
       ingress_issuer: "letsencrypt-production"
-      ca_cert_data: |
-        -----BEGIN CERTIFICATE-----
-        MIIDHDCCAgSgAwIBAgIUUosE53mtlH4enfV+X3so0uZMj18wDQYJKoZIhvcNAQEL
-        BQAwLjEsMCoGA1UEAxMjbXlyZXBvLWhhcmJvci5ha3NsYWIudGFwLmZ5bmVzeS5j
-        b20wHhcNMjMwNzA2MTUxMzI2WhcNMzMwNzAzMTUxMzI2WjAuMSwwKgYDVQQDEyNt
-        eXJlcG8taGFyYm9yLmFrc2xhYi50YXAuZnluZXN5LmNvbTCCASIwDQYJKoZIhvcN
-        AQEBBQADggEPADCCAQoCggEBAKO4PIEZoQPRSZT9+5Vz0yMrGs9UuBav6ooVltNW
-        gQFsgPt3NiC43twCBufpOyvip1X7XKbN8k65HAM3SzHrwG/0JKh4HJBd0/ssq+kz
-        7XT9LjpjFc9IhBq1Ixbt5foW8+vTQ1SRF6KDyuAecJ1VJwt2Zi5jXanw7S9MZbLV
-        olq4977OhTz34bJw0+bEj8EypTBoikKbHZRAWyLehznJrBiu92gW5t6I56eMRBTG
-        rzbeLOmrQnZthEmrEvu1qSJUsziou2d/WwhkS9/Mgg5fG5A53H5R78OYac81KW8/
-        bGI4CHwfnKGwMfKTy55jJHQ9FL3bw9ZcrrN96UrNHQ9qtJsCAwEAAaMyMDAwLgYD
-        VR0RBCcwJYIjbXlyZXBvLWhhcmJvci5ha3NsYWIudGFwLmZ5bmVzeS5jb20wDQYJ
-        KoZIhvcNAQELBQADggEBABsf3VmWlWlL2FUxWbK0oH9rsrdiHevpy5zwlz0lwAkJ
-        ve6NsGEV/AD9PxWCpXzvIFfeAt6U/DvgQIuaHqeRhJK9eZ3807ful9tHogj00v0r
-        tZAgZ5AIgGb04nTY5aPDt0pdi4CdhjOZj3n9Q6vcTsImOP1QNO0DEtPDLRftkzhn
-        0QV1AxQiyhWiXB3CVzgtM4xpdD52O0kg75MuZ7FK0rmTpyyQgEK+TZJRLb+k9yLU
-        javiiULGI0+voUs4xtYp96RPubcQMZcWRKcOyb9Lsg5YkD/oczwpI8f/HP5qKC9U
-        Rd0WveHf7OJIFAcrWrSbsjwtaux7zW52iTsFNSidNgI=
-        -----END CERTIFICATE-----
-
-
 
     ceip_policy_disclosed: true
     profile: full 
