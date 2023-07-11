@@ -1,11 +1,11 @@
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
-  name: customer_profile
+  name: customer-profile
   namespace: default
   labels:
     apps.tanzu.vmware.com/workload-type: web
-    app.kubernetes.io/part-of: customer_profile
+    app.kubernetes.io/part-of: customer-profile
     apps.tanzu.vmware.com/has-tests: "true"
     apps.tanzu.vmware.com/auto-configure-actuators: "true"
     apis.apps.tanzu.vmware.com/register-api: "true"
@@ -27,7 +27,7 @@ spec:
         location:
           path: "/api-docs"
         owner: "default-team"
-        system: "customer_profile"
+        system: "customer-profile"
         description: "test description"
   source:
     git:
