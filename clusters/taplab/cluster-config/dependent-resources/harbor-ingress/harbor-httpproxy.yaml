@@ -11,6 +11,6 @@ spec:
         - name: myrepo-harbor
           port: 80
   virtualhost:
-    fqdn: myrepo-harbor.akslab2.tap.fynesy.com
+    fqdn: myrepo-harbor.akslab1.tap.fynesy.com
     tls:
       secretName: harbor-tls-cert
