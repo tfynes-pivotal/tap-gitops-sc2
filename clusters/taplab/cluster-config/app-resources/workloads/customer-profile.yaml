@@ -27,6 +27,7 @@ spec:
         location:
           path: "/api-docs"
         owner: "default-team"
+        system: "customer-profile"
         description: "test description"
   source:
     git:
