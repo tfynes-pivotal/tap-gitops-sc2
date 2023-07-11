@@ -6,11 +6,11 @@
 #kubectl -n harbor create secret generic harborcerts --from-file=./tls.crt --from-file=tls.key
 
 # this cert allowed tap to install
-#openssl req -newkey rsa:4096 -nodes -sha256 -keyout tls.key -addext "subjectAltName = DNS:myrepo-harbor.akslab1.tap.fynesy.com" -x509 -days 365 -out tls.crt
+#openssl req -newkey rsa:4096 -nodes -sha256 -keyout tls.key -addext "subjectAltName = DNS:myrepo-harbor.akslab3.tap.fynesy.com" -x509 -days 365 -out tls.crt
 #kubectl -n harbor delete secret harborcerts
 #kubectl -n harbor create secret generic harborcerts --from-file=./tls.crt --from-file=tls.key
 
-openssl req -newkey rsa:4096 -nodes -sha256 -keyout tls.key -addext "subjectAltName = DNS:myrepo-harbor.akslab1.tap.fynesy.com" -x509 -days 365 -out tls.crt
+openssl req -newkey rsa:4096 -nodes -sha256 -keyout tls.key -addext "subjectAltName = DNS:myrepo-harbor.akslab3.tap.fynesy.com" -x509 -days 365 -out tls.crt
 kubectl -n harbor delete secret harborcerts
 kubectl -n harbor create secret generic harborcerts --from-file=./tls.crt --from-file=tls.key
 

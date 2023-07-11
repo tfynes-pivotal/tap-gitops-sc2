@@ -4,7 +4,7 @@
 
 #@ username = 'admin'
 #@ password = 'Harbor12345'
-#@ server   = 'myrepo-harbor.akslab1.tap.fynesy.com'
+#@ server   = 'myrepo-harbor.akslab3.tap.fynesy.com'
 
 apiVersion: v1
 kind: Secret
