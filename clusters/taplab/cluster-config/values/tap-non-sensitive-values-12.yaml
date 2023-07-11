@@ -2,7 +2,7 @@
 tap_install:
   values: 
     shared:
-      ingress_domain: "akslab3.tap.fynesy.com"
+      ingress_domain: "akslab4.tap.fynesy.com"
       ingress_issuer: "letsencrypt-production"
 
     ceip_policy_disclosed: true
@@ -10,20 +10,20 @@ tap_install:
     supply_chain: basic 
     
     buildservice:
-      kp_default_repository: myrepo-harbor.akslab3.tap.fynesy.com/library/buildservice
+      kp_default_repository: myrepo-harbor.akslab4.tap.fynesy.com/library/buildservice
       kp_default_repository_username: admin
       kp_default_repository_password: Harbor12345
 
     learningcenter:
       imageRegistry: 
-        host: "myrepo-harbor.akslab3.tap.fynesy.com"
+        host: "myrepo-harbor.akslab4.tap.fynesy.com"
         username: admin
         password: Harbor12345
 
 
     ootb_supply_chain_basic: 
       registry:
-        server: "myrepo-harbor.akslab3.tap.fynesy.com"
+        server: "myrepo-harbor.akslab4.tap.fynesy.com"
         repository: "library"
       gitops:
         ssh_secret: ""

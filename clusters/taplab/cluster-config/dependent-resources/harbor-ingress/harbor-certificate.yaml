@@ -5,7 +5,7 @@ metadata:
   namespace: harbor
 spec:
   dnsNames:
-  - myrepo-harbor.akslab3.tap.fynesy.com
+  - myrepo-harbor.akslab4.tap.fynesy.com
   secretName: harbor-tls-cert
   issuerRef:
     name: letsencrypt-production
