@@ -8,6 +8,7 @@ metadata:
     app.kubernetes.io/part-of: customer-profile
     apps.tanzu.vmware.com/has-tests: "true"
     apps.tanzu.vmware.com/auto-configure-actuators: "true"
+    apis.apps.tanzu.vmware.com/register-api: "true"
 spec:
   build:
     env:
@@ -20,6 +21,13 @@ spec:
     - name: testing_pipeline_matching_labels
       value:
         apps.tanzu.vmware.com/pipeline: test-java
+    - name: api-descriptor
+      value:
+        type: openapi
+        location:
+          path: "/api-docs"
+        owner: "default-team"
+        description: "test description"
   source:
     git:
       url: https://github.com/tfynes-pivotal/tjr1
